@@ -1,0 +1,35 @@
+# RSS/Atom フィードの取得元一覧
+#
+# このファイルは fetch_rss.py が読み込みます。
+# 各 source は順番に取得され、全ソースの結果が
+# inputs/raw/YYYY-MM-DD/news.json と news.md にまとめて保存されます。
+#
+# フィールド:
+#   name:    ソース識別子(英小文字・スネークケース推奨)。Markdown の見出しや JSON の source キーに使われる。
+#   url:     RSS/Atom フィードの URL。当日のハンズオン直前に到達性を確認してから入れること。
+#   enabled: false にすると fetch_rss.py がスキップする。
+
+sources:
+  - id: coindesk
+    name: CoinDesk
+    url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    enabled: true
+
+  - id: decrypt
+    name: Decrypt
+    url: "https://decrypt.co/feed"
+    enabled: true
+
+  - id: theblock
+    name: The Block
+    url: "https://www.theblock.co/rss.xml"
+    enabled: true
+
+# 取得時の共通設定
+fetch:
+  # この時間より前に公開された記事は無視する(時間単位)
+  lookback_hours: 72
+  # 過剰アクセス防止用 User-Agent
+  user_agent: "claude-code-practice/0.1 (hands-on)"
+  # 1ソースあたりの HTTP タイムアウト(秒)
+  timeout_seconds: 15

@@ -1,0 +1,95 @@
+{
+  "ticker": "ETH",
+  "name": "Ethereum",
+  "source_news_path": "inputs/raw/2026-04-30/news.json",
+  "matched_at": "2026-04-30T11:26:53.623016+09:00",
+  "match_count": 2,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Bitcoin, Ethereum Dip as Fed Holds Rates Steady for Third Straight Time",
+      "url": "https://decrypt.co/366008/bitcoin-ethereum-dip-fed-holds-rates-steady-third-straight-time",
+      "summary": "Wednesday's FOMC meeting was expected to be Jerome Powell’s last as Federal Reserve chair.",
+      "published_at": "2026-04-29T18:14:42+00:00",
+      "score": 3,
+      "matched_terms": [
+        "Ethereum"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Ethereum"
+          ],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": false,
+        "cross_market_coin_count": 2,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Ethereum",
+            "points": 3
+          }
+        ]
+      }
+    },
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Ethereum ICO Whale Who Turned $3,100 Into $23M Wakes Up After a Decade",
+      "url": "https://decrypt.co/365926/ethereum-ico-whale-who-turned-3100-into-23m-wakes-up-after-a-decade",
+      "summary": "A wallet dormant since 2015 just moved 10,000 ETH—but analysts say a custody restructuring, not a sell, is the likely explanation.",
+      "published_at": "2026-04-29T11:27:57+00:00",
+      "score": 4,
+      "matched_terms": [
+        "ETH",
+        "Ethereum"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Ethereum"
+          ],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [
+            "ETH"
+          ],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Ethereum",
+            "points": 3
+          },
+          {
+            "signal": "summary_alias",
+            "term": "ETH",
+            "points": 1
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

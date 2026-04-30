@@ -1,0 +1,530 @@
+{
+  "date": "2026-04-28",
+  "fetched_at": "2026-04-28T15:35:21.847180+09:00",
+  "lookback_hours": 72,
+  "sources": [
+    {
+      "id": "coindesk",
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "error": null,
+      "raw_count": 25,
+      "entry_count": 25
+    },
+    {
+      "id": "decrypt",
+      "name": "Decrypt",
+      "url": "https://decrypt.co/feed",
+      "error": null,
+      "raw_count": 57,
+      "entry_count": 26
+    },
+    {
+      "id": "theblock",
+      "name": "The Block",
+      "url": "https://www.theblock.co/rss.xml",
+      "error": null,
+      "raw_count": 20,
+      "entry_count": 20
+    }
+  ],
+  "entries": [
+    {
+      "source": "coindesk",
+      "title": "What next as XRP drops 3% under $1.40 on strong selling",
+      "url": "https://www.coindesk.com/markets/2026/04/28/what-next-as-xrp-drops-3-under-usd1-40-on-strong-selling",
+      "summary": "",
+      "published_at": "2026-04-28T05:35:10+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin loses $77,000, ether, solana slide as Hormuz standoff lifts oil to 3-week high",
+      "url": "https://www.coindesk.com/markets/2026/04/28/bitcoin-loses-usd77-000-ether-solana-slide-as-hormuz-standoff-lifts-oil-to-3-week-high",
+      "summary": "",
+      "published_at": "2026-04-28T05:23:25+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin pressured by Fed uncertainty, oil, and AI slowdown",
+      "url": "https://www.coindesk.com/markets/2026/04/28/the-uncertainty-of-the-fed-oil-and-a-possible-ai-slowdown-are-all-weighing-heavy-on-btc",
+      "summary": "",
+      "published_at": "2026-04-28T04:42:11+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Industry leaders are pouring hundreds of millions into a rescue plan for Aave users after massive crypto hack",
+      "url": "https://www.coindesk.com/tech/2026/04/27/industry-leaders-are-pouring-hundreds-of-millions-into-a-rescue-plan-for-aave-users-after-massive-crypto-hack",
+      "summary": "",
+      "published_at": "2026-04-27T21:40:04+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin rally shows signs of fatigue as key indicators turn bearish",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-rally-shows-signs-of-fatigue-as-key-indicators-turn-bearish",
+      "summary": "",
+      "published_at": "2026-04-27T21:00:00+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Western Union eyeing stablecoin launch to settle global transactions without SWIFT, CEO says",
+      "url": "https://www.coindesk.com/business/2026/04/27/western-union-eyeing-stablecoin-launch-to-settle-global-transactions-without-swift-ceo-says",
+      "summary": "",
+      "published_at": "2026-04-27T20:35:56+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "MARA Holdings targets bitcoin quantum threat and network resilience with new foundation",
+      "url": "https://www.coindesk.com/markets/2026/04/27/mara-holdings-targets-bitcoin-quantum-threat-and-network-resilience-with-new-foundation",
+      "summary": "",
+      "published_at": "2026-04-27T17:49:27+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin pulls back to $76,600 as rising oil price and Iran risks stall the rally",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-to-usd76-600-as-rising-oil-price-and-iran-risks-stall-the-rally",
+      "summary": "",
+      "published_at": "2026-04-27T17:17:25+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Curve founder pitches market-based fix for $700K bad debt in contrast to Aave bailout",
+      "url": "https://www.coindesk.com/markets/2026/04/27/curve-founder-pitches-market-based-fix-for-usd700k-bad-debt-in-contrast-to-aave-bailout",
+      "summary": "",
+      "published_at": "2026-04-27T16:38:29+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Solana developers outline plan to protect network from quantum threats",
+      "url": "https://www.coindesk.com/tech/2026/04/27/solana-developers-outline-plan-to-protect-network-from-quantum-threats",
+      "summary": "",
+      "published_at": "2026-04-27T16:30:56+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin is climbing on thin volume, leaving rally vulnerable to macro shock",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-is-climbing-on-thin-volume-leaving-this-rally-vulnerable-to-macro-shock",
+      "summary": "",
+      "published_at": "2026-04-27T16:22:16+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Cross-border B2B stablecoin payments to hit $5 trillion by 2035, says Juniper Research",
+      "url": "https://www.coindesk.com/business/2026/04/27/cross-border-b2b-stablecoin-payments-to-rise-by-over-37-000-to-usd5t-by-2035",
+      "summary": "",
+      "published_at": "2026-04-27T15:49:01+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Fidelity Digital Assets says bitcoin is leading crypto market stabilization",
+      "url": "https://www.coindesk.com/markets/2026/04/27/fidelity-digital-assets-says-bitcoin-is-leading-crypto-market-stabilization",
+      "summary": "",
+      "published_at": "2026-04-27T15:44:00+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Canada’s crypto donation ban clears key vote with support from Conservatives",
+      "url": "https://www.coindesk.com/policy/2026/04/27/canada-s-crypto-donation-ban-clears-key-vote-with-support-from-conservatives",
+      "summary": "",
+      "published_at": "2026-04-27T15:05:56+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "As the bitcoin price rises, futures may look bearish, but they're not, analyst says",
+      "url": "https://www.coindesk.com/markets/2026/04/27/as-the-bitcoin-price-rises-futures-may-look-bearish-but-they-re-not-analyst-says",
+      "summary": "",
+      "published_at": "2026-04-27T14:37:30+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Signal in the age of infinite noise",
+      "url": "https://www.coindesk.com/opinion/2026/04/27/signal-in-the-age-of-infinite-noise",
+      "summary": "",
+      "published_at": "2026-04-27T13:45:02+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Michael Saylor’s Strategy buys 3,273 bitcoin as it inches closer to its 1 million target",
+      "url": "https://www.coindesk.com/markets/2026/04/27/michael-saylor-s-strategy-buys-3-273-bitcoin-as-it-inches-closer-to-its-1-million-target",
+      "summary": "",
+      "published_at": "2026-04-27T13:43:09+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitmine buys $236 million in ether as Tom Lee touts ETH as 'wartime store of value'",
+      "url": "https://www.coindesk.com/business/2026/04/27/bitmine-buys-usd236-million-in-ether-as-tom-lee-touts-eth-as-wartime-store-of-value",
+      "summary": "",
+      "published_at": "2026-04-27T13:17:02+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "CoinDesk 20 performance update: Stellar (XLM) drops 3.4%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/27/coindesk-20-performance-update-stellar-xlm-drops-3-4-leading-index-lower",
+      "summary": "",
+      "published_at": "2026-04-27T13:15:34+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Pudgy Penguins rally coincides with token unlock as analyst flags exit liquidity risk",
+      "url": "https://www.coindesk.com/markets/2026/04/27/pudgy-penguins-rally-coincides-with-token-unlock-as-analyst-flags-exit-liquidity-risk",
+      "summary": "",
+      "published_at": "2026-04-27T12:11:23+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin funds take in $933 million as crypto ETFs hit highest AUM since February",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-funds-take-in-usd933-million-as-crypto-etfs-hit-highest-aum-since-february",
+      "summary": "",
+      "published_at": "2026-04-27T12:07:04+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "From SWIFT to onchain: South Korea’s biggest digital bank taps Ripple for high-speed global transfers",
+      "url": "https://www.coindesk.com/markets/2026/04/27/south-korea-s-kbank-tests-international-blockchain-transfers-with-ripple",
+      "summary": "",
+      "published_at": "2026-04-27T11:29:35+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin hits wall at $80,000, one analyst says the pullback is temporary",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/27/bitcoin-hits-wall-at-usd80-000-one-analyst-says-the-pullback-is-temporary",
+      "summary": "",
+      "published_at": "2026-04-27T11:14:37+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "EU’s largest measures against Russia yet include escalation of crypto sanctions evasion",
+      "url": "https://www.coindesk.com/policy/2026/04/27/eu-s-largest-measures-against-russia-yet-include-escalation-of-crypto-sanctions-evasion",
+      "summary": "",
+      "published_at": "2026-04-27T10:42:48+00:00"
+    },
+    {
+      "source": "coindesk",
+      "title": "Bitcoin reverses from $79,500 as oil surge triggers broader crypto selloff",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-reverses-from-usd79-500-as-oil-surge-triggers-broader-crypto-selloff",
+      "summary": "",
+      "published_at": "2026-04-27T10:37:43+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Elon Musk’s Fight With Colorado Over AI Law Hits Pause as State Considers Revisions",
+      "url": "https://decrypt.co/365751/elon-musk-colorado-ai-law-pause-state-considers-revisions",
+      "summary": "The joint motion halts deadlines and enforcement in xAI’s lawsuit while Colorado lawmakers weigh changes to the state’s AI bias law.",
+      "published_at": "2026-04-27T22:22:51+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Aave-Led 'DeFi United' Relief Effort Raises $300 Million to Cover Kelp DAO Exploit Losses",
+      "url": "https://decrypt.co/365724/aave-led-defi-united-relief-effort-raises-300m-kelp-dao-losses",
+      "summary": "The Aave-led relief effort has gained widespread support, securing enough commitments to replenish the swiped funds.",
+      "published_at": "2026-04-27T20:56:27+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "OpenAI Is Building Its Own Smartphone Chip With Qualcomm and MediaTek: Report",
+      "url": "https://decrypt.co/365726/openai-smartphone-chip-qualcomm-mediatek",
+      "summary": "Six weeks after telling staff to stop chasing distractions, OpenAI is reportedly planning a phone targeting 400 million units a year.",
+      "published_at": "2026-04-27T20:45:08+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin Developer Plans to 'Reassign' Coins Linked to Satoshi Nakamoto in Hard Fork",
+      "url": "https://decrypt.co/365712/bitcoin-developer-reassign-coins-linked-satoshi-nakamoto-hard-fork",
+      "summary": "Paul Sztorc’s proposed eCash fork would give investors coins cloned from wallets believed to belong to Bitcoin creator Satoshi Nakamoto.",
+      "published_at": "2026-04-27T20:15:29+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Taylor Swift Seeks Trademarks for Her Voice and Image to Fight AI Fakes",
+      "url": "https://decrypt.co/365720/taylor-swift-trademarks-voice-mage-fight-ai-fakes",
+      "summary": "The trademark applications aim to strengthen her ability to fight AI-generated deepfakes, as image generation tools advance.",
+      "published_at": "2026-04-27T20:07:06+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Fed Confirms What Tech Developers Have Feared for Two Years",
+      "url": "https://decrypt.co/365693/fed-confirms-tech-developers-fears-ai-jobs",
+      "summary": "A new Federal Reserve study links ChatGPT's launch to a sharp halving of U.S. programmer job growth—the first institutional-level evidence connecting AI adoption to measurable developer hiring declines.",
+      "published_at": "2026-04-27T19:53:51+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Malicious Web Pages Are Hijacking AI Agents, And Some Are Going After Your PayPal",
+      "url": "https://decrypt.co/365677/google-prompt-injection-ai-agents-paypal-enterprise",
+      "summary": "Google's security team scanned billions of web pages and found real payloads designed to trick AI agents into sending money, deleting files, and leaking credentials.",
+      "published_at": "2026-04-27T18:12:13+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Google Employees Demand CEO Block Military AI Contracts in Open Letter",
+      "url": "https://decrypt.co/365674/google-employees-demand-ceo-block-military-ai-contracts-in-open-letter",
+      "summary": "Some 580 Google employees have signed the letter to CEO Sundar Pichai, citing ethical concerns over military use of AI.",
+      "published_at": "2026-04-27T17:44:42+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Publicly Traded Strive Buys $60 Million in Bitcoin, Plans BTC Business Summit",
+      "url": "https://decrypt.co/365672/publicly-traded-strive-buys-60-million-bitcoin-business-summit",
+      "summary": "Strive Inc. purchased 789 more Bitcoin while its subsidiary prepares to educate business leaders on corporate crypto adoption.",
+      "published_at": "2026-04-27T17:37:43+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Trump Walks Back Prediction Market Criticism, Says 'Smart People' He Knows Like Them",
+      "url": "https://decrypt.co/365657/trump-prediction-markets-smart-people-like-them",
+      "summary": "Trump said last week he didn’t like prediction markets, but then changed his tune, arguing the U.S. should not get left behind in the space.",
+      "published_at": "2026-04-27T17:15:53+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Crypto Exchange Gemini Launches Agentic Trading Feature for AI Agents",
+      "url": "https://decrypt.co/365661/crypto-exchange-gemini-agentic-trading-feature-ai-agents",
+      "summary": "Gemini has integrated AI models like Claude and ChatGPT to execute automated trading strategies via an open protocol.",
+      "published_at": "2026-04-27T16:56:47+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Litecoin Rewrites Transaction History After Exploit, Apologizes for Social Posts",
+      "url": "https://decrypt.co/365648/litecoin-rewrites-transaction-history-exploit-apologizes-social-posts",
+      "summary": "Litecoin was affected by a bug this weekend that allowed an attacker to transfer digital assets—transactions that were later wiped away.",
+      "published_at": "2026-04-27T16:40:50+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "OpenAI's Sam Altman Apologizes for Not Alerting Police Before Tumbler Ridge Mass Shooting",
+      "url": "https://decrypt.co/365645/openai-sam-altman-apologizes-not-alerting-police-tumbler-ridge-mass-shooting",
+      "summary": "Sam Altman admitted that OpenAI should have warned law enforcement after banning the suspect’s account months before the attack.",
+      "published_at": "2026-04-27T16:05:57+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "China Blocks Meta's $2 Billion Acquisition of AI Startup Manus",
+      "url": "https://decrypt.co/365644/china-blocks-meta-2-billion-acquisition-ai-startup-manus",
+      "summary": "Beijing's intervention in Meta's startup acquisition signals tighter scrutiny of foreign investments in China's AI sector.",
+      "published_at": "2026-04-27T15:38:46+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Microsoft and OpenAI Rework AI Deal, Cutting Exclusivity and AGI Provisions",
+      "url": "https://decrypt.co/365630/microsoft-openai-rework-ai-deal-cutting-exclusivity-agi-provisions",
+      "summary": "The restructured deal with Microsoft removes exclusivity provisions and revenue-sharing arrangements, freeing OpenAI to pursue additional allies.",
+      "published_at": "2026-04-27T14:57:43+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Tom Lee's BitMine Makes Biggest Ethereum Buy So Far in 2026, Hitting 5 Million ETH Milestone",
+      "url": "https://decrypt.co/365619/tom-lees-bitmine-biggest-ethereum-buy-december-eth-milestone",
+      "summary": "BitMine Immersion Technologies now holds over 5 million ETH, following the leading Ethereum treasury firm's biggest buy since December.",
+      "published_at": "2026-04-27T14:21:54+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin Giant Strategy's Buying Pace Falls 91% Amid STRC Cooldown",
+      "url": "https://decrypt.co/365620/bitcoin-giant-strategy-buying-pace-falls-strc-cooldown",
+      "summary": "The Bitcoin-buying firm leaned on common shares to grow its holdings after STRC powered its largest purchase in 16 months.",
+      "published_at": "2026-04-27T13:57:33+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Money Launderer Sentenced to 70 Months Over $263M Crypto Social-Engineering Scheme",
+      "url": "https://decrypt.co/365606/money-launderer-sentenced-to-70-months-over-263m-crypto-social-engineering-scheme",
+      "summary": "California money launderer Evan Tangeman admitted to having processed millions in stolen cryptocurrency proceeds.",
+      "published_at": "2026-04-27T13:08:03+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin ETFs Extend Longest Win Streak Since September, But Spot Demand Lags",
+      "url": "https://decrypt.co/365604/bitcoin-etfs-extend-longest-win-streak-since-september-but-spot-demand-lags",
+      "summary": "The nine-day inflow streak saw spot Bitcoin ETFs draw in $2.1 billion, but experts warn of “net negative” on-chain demand.",
+      "published_at": "2026-04-27T12:34:05+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Morning Minute: NFTs Storm Back, Led by Bored Apes",
+      "url": "https://decrypt.co/365600/morning-minute-nfts-storm-back-led-by-bored-apes",
+      "summary": "Bitcoin made its highest weekly close since January. Western Union is launching a stablecoin. And NFTs are making a major comeback.",
+      "published_at": "2026-04-27T11:57:00+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "France Charges 88, Including Minors, in Crypto ‘Wrench Attack’ Crackdown",
+      "url": "https://decrypt.co/365596/france-charges-88-including-minors-in-crypto-wrench-attack-crackdown",
+      "summary": "France has recorded 135 crypto-linked incidents since 2023, amid a nationwide surge in so-called “wrench attacks.\"",
+      "published_at": "2026-04-27T11:26:44+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Western Union to Launch Solana-Based Stablecoin Plus ‘Stable Card’ Next Month",
+      "url": "https://decrypt.co/365593/western-union-to-launch-solana-based-stablecoin-plus-stable-card-next-month",
+      "summary": "The USDPT stablecoin launching next month will serve as an alternative to SWIFT for agent settlements rather than consumer transactions.",
+      "published_at": "2026-04-27T10:02:52+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Coachella Uses Google DeepMind AI to Test the Future of Live Entertainment",
+      "url": "https://decrypt.co/365532/coachella-google-deepmind-ai-test-future-live-entertainment",
+      "summary": "Coachella is experimenting with AI-built artist tools, immersive digital worlds, and 3D performance archives that could shape future fan experiences.",
+      "published_at": "2026-04-26T19:04:43+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Your AI Agent Can Now Groan While Untangling Your Vibe Coded Mess",
+      "url": "https://decrypt.co/365511/ai-agent-groan-endless-toil-vibecoding-suffering",
+      "summary": "A new GitHub plugin makes your coding agent emit escalating human moans as it suffers through your spaghetti code.",
+      "published_at": "2026-04-26T13:01:02+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Elon Musk’s Grok Most Likely Among Top AI Models to Reinforce Delusions: Study",
+      "url": "https://decrypt.co/365489/elon-musk-grok-most-likely-ai-reinforce-delusions-study",
+      "summary": "Researchers found that xAI's Grok was the riskiest AI model tested, often validating delusions and offering dangerous advice.",
+      "published_at": "2026-04-25T19:01:03+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin Hit Its Highest Price Since January—Why VanEck Analysts See More Potential Gains",
+      "url": "https://decrypt.co/365556/bitcoin-highest-price-january-why-vaneck-analysts-more-gains",
+      "summary": "Bitcoin hash rate recovery and negative funding rates signal potential gains ahead, according to the ETF provider's latest network analysis.",
+      "published_at": "2026-04-25T16:31:33+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Japan’s Bitbank rolls out crypto-linked credit card that pays bills in bitcoin",
+      "url": "https://www.theblock.co/post/399102/japans-bitbank-crypto-credit-card?utm_source=rss&utm_medium=rss",
+      "summary": "<p>The card will allow users to pay their credit card bill in bitcoin, and receive a 0.5% cashback in crypto for their spending.</p>",
+      "published_at": "2026-04-28T03:42:34+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Saipan woman gets 71 months in prison for bitcoin fraud targeting senior victims",
+      "url": "https://www.theblock.co/post/399107/saipan-woman-bitcoin-fraud?utm_source=rss&utm_medium=rss",
+      "summary": "<p>The criminal built trust with her targets and solicited bitcoin investments under false pretenses, according to the DOJ.</p>",
+      "published_at": "2026-04-28T03:00:15+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "ZetaChain halts cross-chain transactions following attack on smart contract",
+      "url": "https://www.theblock.co/post/399092/zetachain-attack-smart-contract?utm_source=rss&utm_medium=rss",
+      "summary": "<p>The attack has only impacted internal ZetaChain team wallets, and no user funds were affected, the team said.</p>",
+      "published_at": "2026-04-28T01:41:47+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "White House crypto advisor hints at  ‘big announcement’ on Trump’s strategic bitcoin reserve in coming weeks",
+      "url": "https://www.theblock.co/post/399087/white-house-crypto-advisor-trump-strategic-bitcoin-reserve-coming-weeks?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Executive Director of the President’s Council of Advisors for Digital Assets Patrick Witt said bitcoin reserve legislation is progressing.</p>",
+      "published_at": "2026-04-27T21:25:23+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "‘We don’t take Satoshi’s bitcoin’: eCash fork sparks backlash over ‘reassigned’ coins",
+      "url": "https://www.theblock.co/post/399054/we-dont-take-satoshis-bitcoin-ecash-fork-backlash-reassigned-coins?utm_source=rss&utm_medium=rss",
+      "summary": "<p>The eCash fork will act as a live test of Paul Sztorc’s long-running drivechains-sidechains vision for the bitcoin network.</p>",
+      "published_at": "2026-04-27T20:48:07+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Acting AG Blanche: DOJ has ‘fundamentally changed the game’ for developers",
+      "url": "https://www.theblock.co/post/399078/acting-ag-blanche-doj-has-fundamentally-changed-the-game-for-developers?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Acting AG Blanche offered some reassurance to software developers as the Justice Department continues its case against Roman Storm.</p>",
+      "published_at": "2026-04-27T20:38:13+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "MARA Foundation to foster long-term adoption of Bitcoin, including resilience against quantum and security budget risks",
+      "url": "https://www.theblock.co/post/399069/mara-foundation-adoption-bitcoin-resilience-quantum-security-budget-risks?utm_source=rss&utm_medium=rss",
+      "summary": "<p>The recently formed MARA Foundation said it will focus on the long-term health, resilience, and adoption of the Bitcoin protocol.</p>",
+      "published_at": "2026-04-27T19:22:48+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Rep. Begich plans revival of bitcoin strategic reserve bill under new name to codify Trump’s executive order",
+      "url": "https://www.theblock.co/post/399056/rep-begich-plans-revival-of-bitcoin-strategic-reserve-bill-under-new-name-to-codify-trumps-executive-order?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Legislation to establish a strategic bitcoin reserve in the U.S. is set to be reintroduced in the next few weeks.</p>",
+      "published_at": "2026-04-27T18:26:13+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Sen. Tillis becomes ‘latest roadblock’ for crypto bill as he pushes ethics provisions, TD Cowen says",
+      "url": "https://www.theblock.co/post/399044/sen-tillis-latest-roadblock-crypto-bill-ethics-provisions-td-cowen?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Thom Tillis has reportedly said he would not support the crypto bill if it does not include conflict-of-interest provisions.</p>",
+      "published_at": "2026-04-27T17:39:20+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Aven bitcoin Visa card will offer BTC-backed line of credit of up to $1 million",
+      "url": "https://www.theblock.co/post/399027/aven-bitcoin-visa-card-btc-backed-line-credit-1-million?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Aven's new bitcoin credit card will offer fixed-rate, fixed-term loans of up to 10 years at a 7.99% APR as well as unlimited 2% cash back.</p>",
+      "published_at": "2026-04-27T17:05:00+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "DeFi United push hits $300M as Consensys and Joseph Lubin contribute 30,000 ETH",
+      "url": "https://www.theblock.co/post/399010/defi-united-push-hits-300m-as-consensys-and-joseph-lubin-contribute-30000-eth?utm_source=rss&utm_medium=rss",
+      "summary": "<p>The industry-wide effort dubbed DeFi United had raised roughly $235 million worth of Ethereum as of Monday.</p>",
+      "published_at": "2026-04-27T16:09:25+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "‘Clear runway’ to 5,000 BTC: Benchmark initiates Asian food platform DDC, sees 70% upside",
+      "url": "https://www.theblock.co/post/398994/clear-runway-5000-btc-benchmark-initiates-ddc-70-upside?utm_source=rss&utm_medium=rss",
+      "summary": "<p>DDC is investing in an \"AI-driven operating system\" to help guide its bitcoin purchases as it aims to reach 5,000 BTC by year-end 2026.</p>",
+      "published_at": "2026-04-27T15:39:30+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Luca Netz on building a brand people actually love",
+      "url": "https://www.theblock.co/post/399004/luca-netz-on-building-a-brand-people-actually-love?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Netz explains how Pudgy Penguins is evolving from NFTs into a consumer brand by focusing on culture, IP, and mass adoption over speculation.</p>",
+      "published_at": "2026-04-27T15:27:09+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Gemini rolls out Agentic Trading allowing AI bots to directly manage crypto exchange trading accounts",
+      "url": "https://www.theblock.co/post/399001/gemini-rolls-out-agentic-trading-allowing-ai-bots-to-directly-manage-crypto-exchange-trading-accounts?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Gemini referred to the feature as “the first agentic trading tool to be available directly through a regulated US-based exchange.”</p>",
+      "published_at": "2026-04-27T15:15:17+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "‘The best days of crypto are ahead’: Bernstein sees asymmetric upside and structurally longer bull cycle",
+      "url": "https://www.theblock.co/post/398996/the-best-days-of-crypto-are-ahead-bernstein-sees-asymmetric-upside-and-structurally-longer-bull-cycle?utm_source=rss&utm_medium=rss",
+      "summary": "<p>New institutional on-ramps, strong flows, and exhausted retail selling points to renewed asymmetric upside for bitcoin, Bernstein said.</p>",
+      "published_at": "2026-04-27T14:40:34+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "Strive acquires 789 BTC, bumping ninth-largest corporate bitcoin treasury over 14,000 BTC",
+      "url": "https://www.theblock.co/post/398986/strive-acquires-789-btc-bumping-ninth-largest-corporate-bitcoin-treasury-over-14000-btc?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Strive also recently tightened its preferred stock's trading range while boosting its monthly dividend yield to 12.75%.</p>",
+      "published_at": "2026-04-27T13:30:32+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "BitMine’s ether holdings top 5.078 million after largest purchase since December",
+      "url": "https://www.theblock.co/post/398982/bitmines-ether-holdings-top-5-078-million-after-largest-purchase-since-december?utm_source=rss&utm_medium=rss",
+      "summary": "<p>BitMine said its ether holdings climbed to 5.078 million tokens after another 101,901 ETH purchase last week.</p>",
+      "published_at": "2026-04-27T13:19:15+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "TD Cowen reiterates buy rating on Smarter Web Company, says it remains UK’s only scaled bitcoin treasury vehicle",
+      "url": "https://www.theblock.co/post/398978/td-cowen-reiterates-buy-rating-on-smarter-web-company-says-it-remains-uks-only-scaled-bitcoin-treasury-vehicle?utm_source=rss&utm_medium=rss",
+      "summary": "<p>TD Cowen said The Smarter Web Company has strengthened its position as the only UK-listed bitcoin treasury vehicle at scale.</p>",
+      "published_at": "2026-04-27T12:55:52+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "The Block appoints veteran media operator Steve Chung as CEO",
+      "url": "https://www.theblock.co/post/398948/the-block-appoints-steve-chung-ceo?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Chung takes over from Larry Cermak, who remains President of The Block, overseeing research, data, and product.</p>",
+      "published_at": "2026-04-27T12:30:00+00:00"
+    },
+    {
+      "source": "theblock",
+      "title": "‘The beat goes on’: Michael Saylor’s Strategy adds 3,273 bitcoin for $255 million as holdings reach 818,334 BTC",
+      "url": "https://www.theblock.co/post/398968/the-beat-goes-on-michael-saylor-strategy-bitcoin-buys?utm_source=rss&utm_medium=rss",
+      "summary": "<p>Strategy's holdings account for 3.9% of the total 21 million bitcoin supply — worth around $63.7 billion.</p>",
+      "published_at": "2026-04-27T12:06:16+00:00"
+    }
+  ]
+}

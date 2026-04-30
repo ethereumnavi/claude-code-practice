@@ -1,0 +1,98 @@
+# 監視対象の暗号資産銘柄
+#
+# このファイルは match_news.py が読み込み、
+# RSS エントリを銘柄ごとに振り分けるために使います。
+#
+# 各銘柄のフィールド:
+#   ticker:  メインのティッカーシンボル(大文字)。dossier のファイル名にも使う。
+#   name:    正式名(英語)。
+#   aliases: 表記ゆれ・別名・略称・日本語名。銘柄名そのものを拾うための候補語。
+#            タイトル・サマリ本文に対して単語境界つきで照合する。
+#            match_news.py 側で「alias が必須(themes / context だけのヒットでは採択しない)」
+#            の方針に切り替えたため、bare ticker(BTC / ETH / SOL)もここに含めて取りこぼしを防ぐ。
+#            score しきい値が安全弁として効くので、短い ticker でも採択ノイズは抑えられる。
+#   themes:  この銘柄に関連する弱めの追加キーワード(ETF, halving, staking など)。
+#            ヒット表示や dossier 集計に使う。
+#   required_context_terms:
+#            この銘柄の論点記事である「強い文脈」を示す語(任意)。
+#            ヒットすると大きな加点になり、クロスマーケット記事の減点対象から外れる。
+#            alias より具体・固有名詞寄り(人名、製品名、コード名など)を入れると効きやすい。
+#   enabled: false のときマッチ対象から除外する。
+
+coins:
+  - ticker: BTC
+    name: Bitcoin
+    aliases:
+      - "Bitcoin"
+      - "ビットコイン"
+      - "$BTC"
+      - "BTC"
+      - "XBT"
+    themes:
+      - "spot ETF"
+      - "halving"
+      - "miner"
+      - "hash rate"
+    required_context_terms:
+      - "Saylor"
+      - "MicroStrategy"
+      - "Strategic Bitcoin Reserve"
+      - "MARA"
+      - "Marathon Digital"
+      - "treasury vehicle"
+      - "corporate treasury"
+      - "halving"
+      - "hash rate"
+      - "Satoshi"
+      - "Lightning Network"
+      - "spot ETF"
+      - "IBIT"
+    enabled: true
+
+  - ticker: ETH
+    name: Ethereum
+    aliases:
+      - "Ethereum"
+      - "Ether"
+      - "イーサリアム"
+      - "$ETH"
+      - "ETH"
+    themes:
+      - "staking"
+      - "L2"
+      - "rollup"
+      - "EIP"
+    required_context_terms:
+      - "Vitalik"
+      - "Lido"
+      - "restaking"
+      - "EigenLayer"
+      - "rollup"
+      - "Layer 2"
+      - "EIP"
+      - "ETH ETF"
+      - "gas fee"
+      - "Uniswap"
+      - "Dencun"
+      - "Pectra"
+    enabled: true
+
+  - ticker: SOL
+    name: Solana
+    aliases:
+      - "Solana"
+      - "ソラナ"
+      - "$SOL"
+      - "SOL"
+    themes:
+      - "memecoin"
+      - "DePIN"
+      - "Firedancer"
+    required_context_terms:
+      - "Firedancer"
+      - "Anatoly"
+      - "Pump.fun"
+      - "Jito"
+      - "Solana Mobile"
+      - "Marinade"
+    enabled: true

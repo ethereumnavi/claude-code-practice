@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# 旧 SMTP 設計のローカル設定(現在は未使用。残存ファイルの誤コミット防止に維持)
+config/email.local.yaml
+
+# HashHub Research 由来の背景知識(本物はコミットしない。雛形の `*.example` のみ commit 可)
+inputs/research/*.md
+
+# 実行ログ
+logs/*.log
+
+# tmp / OS
+.DS_Store
+*.tmp
+
+.venv/
+
+.claude/
+logs/

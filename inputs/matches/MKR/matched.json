@@ -1,0 +1,49 @@
+{
+  "ticker": "MKR",
+  "name": "Maker",
+  "source_news_path": "inputs/raw/2026-05-07/news.json",
+  "matched_at": "2026-05-07T11:32:23.453646+09:00",
+  "match_count": 1,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Google DeepMind Takes Stake in 'Eve Online' Maker, Will Use Game to Test AI Behavior",
+      "url": "https://decrypt.co/366991/google-deepmind-takes-stake-in-eve-online-maker-will-use-game-to-test-ai-behavior",
+      "summary": "The wild world of space simulation game Eve Online will soon become an AI research destination for Google DeepMind thanks to a new deal.",
+      "published_at": "2026-05-06T16:59:13+00:00",
+      "score": 3,
+      "matched_terms": [
+        "Maker"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Maker"
+          ],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Maker",
+            "points": 3
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

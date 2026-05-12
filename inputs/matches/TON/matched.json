@@ -1,0 +1,106 @@
+{
+  "ticker": "TON",
+  "name": "Toncoin",
+  "source_news_path": "inputs/raw/2026-05-07/news.json",
+  "matched_at": "2026-05-07T11:32:23.453646+09:00",
+  "match_count": 1,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "thedefiant",
+      "source_name": "The Defiant",
+      "title": "Toncoin Surges as Telegram Takes Direct Control of TON Network",
+      "url": "https://thedefiant.io/news/blockchains/toncoin-surges-as-telegram-takes-direct-control-of-ton-network",
+      "summary": "Pavel Durov says Telegram will replace the TON Foundation and become the network's largest validator as part of a ‘Make TON Great Again’ roadmap.",
+      "published_at": "2026-05-05T17:32:56+00:00",
+      "score": 20,
+      "matched_terms": [
+        "Pavel Durov",
+        "TON",
+        "TON Foundation",
+        "Telegram",
+        "Toncoin"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Toncoin",
+            "TON"
+          ],
+          "themes": [
+            "Telegram"
+          ],
+          "context": [
+            "Telegram"
+          ]
+        },
+        "summary": {
+          "aliases": [
+            "TON"
+          ],
+          "themes": [
+            "Telegram"
+          ],
+          "context": [
+            "Telegram",
+            "TON Foundation",
+            "Pavel Durov"
+          ]
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Toncoin",
+            "points": 3
+          },
+          {
+            "signal": "title_alias",
+            "term": "TON",
+            "points": 3
+          },
+          {
+            "signal": "summary_alias",
+            "term": "TON",
+            "points": 1
+          },
+          {
+            "signal": "title_context",
+            "term": "Telegram",
+            "points": 4
+          },
+          {
+            "signal": "summary_context",
+            "term": "Telegram",
+            "points": 2
+          },
+          {
+            "signal": "summary_context",
+            "term": "TON Foundation",
+            "points": 2
+          },
+          {
+            "signal": "summary_context",
+            "term": "Pavel Durov",
+            "points": 2
+          },
+          {
+            "signal": "title_theme",
+            "term": "Telegram",
+            "points": 2
+          },
+          {
+            "signal": "summary_theme",
+            "term": "Telegram",
+            "points": 1
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

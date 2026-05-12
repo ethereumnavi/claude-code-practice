@@ -1,0 +1,101 @@
+{
+  "ticker": "XRP",
+  "name": "Ripple",
+  "source_news_path": "inputs/raw/2026-05-12/news.json",
+  "matched_at": "2026-05-12T08:28:58.313794+09:00",
+  "match_count": 2,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "thedefiant",
+      "source_name": "The Defiant",
+      "title": "Ripple Prime Secures $200M Debt Facility to Expand Lending Capacity",
+      "url": "https://thedefiant.io/news/defi/ripple-prime-secures-usd200m-debt-facility-to-expand-lending-capacity",
+      "summary": "Funds managed by Neuberger Specialty Finance committed the facility to grow margin financing for the multi-asset prime broker.",
+      "published_at": "2026-05-11T17:54:33+00:00",
+      "score": 3,
+      "matched_terms": [
+        "Ripple"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Ripple"
+          ],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Ripple",
+            "points": 3
+          }
+        ]
+      }
+    },
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Ripple Lands $200 Million Financing Facility to Expand Institutional Crypto Brokerage",
+      "url": "https://decrypt.co/367396/ripple-200-million-financing-facility-expand-institutional-crypto-brokerage",
+      "summary": "The XRP-linked Ripple secures financing from Neuberger Specialty Finance to fuel growth of its prime brokerage platform.",
+      "published_at": "2026-05-11T14:01:32+00:00",
+      "score": 5,
+      "matched_terms": [
+        "Ripple",
+        "XRP"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Ripple"
+          ],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [
+            "Ripple",
+            "XRP"
+          ],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Ripple",
+            "points": 3
+          },
+          {
+            "signal": "summary_alias",
+            "term": "Ripple",
+            "points": 1
+          },
+          {
+            "signal": "summary_alias",
+            "term": "XRP",
+            "points": 1
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

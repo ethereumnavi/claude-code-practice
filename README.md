@@ -54,78 +54,83 @@ outputs/articles/<TICKER>.md
 
 ## 日次の手動実行
 
-毎朝この 1 コマンドで、ETH / SOL / BTC の評論記事 3 本が `outputs/articles/<date>-<ticker>.md` に生成されます(配列順に処理されるため、出力順・確認順は ETH → SOL → BTC)。
+毎朝この 1 コマンドで、[config/coins.yaml](config/coins.yaml) の `enabled: true` の全銘柄について、**当日のニュースが拾えた銘柄だけ**評論記事が `outputs/articles/<date>-<ticker>.md` に生成されます。ニュースが 0 件の銘柄は **SKIP として正常終了**し、記事ファイルは作りません。
 
 ```bash
 ./scripts/daily_prepare.sh
 ```
 
-`bash scripts/daily_prepare.sh` でも同じです。所要時間の目安は 3 銘柄合計で 15〜25 分(LLM 呼び出しが銘柄ごとに 5〜7 分)。
+`bash scripts/daily_prepare.sh` でも同じです。所要時間の目安は **OK 銘柄数 × 5〜7 分**。当日のニュース密度しだいで OK の数は変動するので、合計時間も 30 分〜2 時間程度のレンジで見ておいてください。
 
 ### 毎朝叩く 3 パターン(コピペ用)
 
-生成だけ:
+**1. 生成だけ**
 
 ```bash
 ./scripts/daily_prepare.sh
 ```
 
-VS Code で全部開く(成功した銘柄分):
+進行ログ(stderr)はターミナルにそのまま流れ、成功した銘柄の article path(stdout)もターミナルに出力されます。
+
+**2. 生成して、成功した記事だけを規定アプリで open**
 
 ```bash
-code $(./scripts/daily_prepare.sh)
+./scripts/daily_prepare.sh | xargs -n1 open
 ```
 
-主役の 1 本目(ETH)だけ macOS の規定アプリで開く:
+`stdout` には OK の path だけが yaml 順で 1 行ずつ流れる契約なので、SKIP / FAIL の銘柄は open に渡らず、「存在しないファイルを開きにいって失敗ダイアログが出る」事故が起きません。VS Code 派なら `code $(./scripts/daily_prepare.sh)` でも同じことが書けます。
 
-```bash
-./scripts/daily_prepare.sh | head -1 | xargs open
-```
+**3. 特定銘柄だけ再実行**
 
-### 中で動くこと
-
-`scripts/daily_prepare.sh` は次の 4 段を呼び出します:
-
-1. `python scripts/fetch_rss.py` — RSS を取得 → `inputs/raw/<date>/news.json`
-2. `python scripts/match_news.py <date>` — 銘柄でフィルタ → `inputs/matches/<TICKER>/matched.json`
-3〜4. 各銘柄(ETH → SOL → BTC の順)で:
-   - `python scripts/build_dossier.py <TICKER>` — 集約 → `inputs/dossiers/<TICKER>.md`
-   - `bash scripts/write_article.sh <TICKER> <date>` — 記事生成 → `outputs/articles/<date>-<ticker>.md`
-
-`<date>` はスクリプト冒頭で `date +%Y-%m-%d` を 1 度だけ採取し、すべての段で同じ値を使います。`.venv/bin/python` があれば優先し、無ければ system の `python3` にフォールバックします。
-
-### fail-fast / per-ticker 隔離の切り分け
-
-- **前段(依存チェック / fetch_rss / match_news)** は fail-fast。落ちたら pipeline 全体停止、`[FAILED] step=N/M ... exit=...` を stderr に出して exit 1。
-- **後段(build_dossier / write_article)** は per-ticker で隔離。ETH が落ちても SOL/BTC は続行します。最後のサマリで OK / FAIL を一覧表示。daily_prepare 全体の exit code は前段が成功していれば 0(後段の per-ticker 失敗はサマリ報告のみ)。
-
-### 出力の流れ
-
-- **stdout**: 成功した銘柄の article path を **配列順に 1 行ずつ**(ETH → SOL → BTC)。失敗した銘柄の path は出さない
-- **stderr**: バナー、各ステップの進行ログ、銘柄別 OK/FAIL サマリ、総時間
-
-### 失敗したらどこから再開するか
-
-各段は前段の出力ファイルだけを入力に取る独立したスクリプトです。失敗した銘柄だけを手で叩き直せます。
-
-例えば ETH の write_article で落ちた場合:
+例えば ETH の write_article で落ちた / 取りこぼしを直した場合:
 
 ```bash
 bash scripts/write_article.sh ETH $(date +%Y-%m-%d)
 ```
 
-build_dossier から再走したい場合(matched.json が当日分残っている前提):
+build_dossier からやり直したい場合(当日の `inputs/matches/ETH/matched.json` が残っている前提):
 
 ```bash
 .venv/bin/python scripts/build_dossier.py ETH
 bash scripts/write_article.sh ETH $(date +%Y-%m-%d)
 ```
 
-`scripts/write_article.sh` 単体の使い方や検証ルールは下記「記事生成」節を参照してください。
+各段は前段の出力ファイルだけを入力に取る独立スクリプトなので、落ちた段から手で再開できます。
 
-### 銘柄を増やしたい・順序を変えたいとき
+### 中で動くこと
 
-[scripts/daily_prepare.sh](scripts/daily_prepare.sh) の `TICKERS=("ETH" "SOL" "BTC")` 配列を編集するだけです。コードの他の場所には手を入れません。新しい銘柄を増やす場合は、事前に [config/coins.yaml](config/coins.yaml) にエントリを追加してから `TICKERS` に入れてください。
+`scripts/daily_prepare.sh` は次の 4 段を呼び出します:
+
+1. `python scripts/fetch_rss.py` — RSS を **全体で 1 回** 取得 → `inputs/raw/<date>/news.json`
+2. `python scripts/match_news.py <date>` — coins.yaml の全 enabled 銘柄について **全体で 1 回** 振り分け → `inputs/matches/<TICKER>/matched.json`
+3〜4. その後、**銘柄ごとに分岐**(yaml の並び順)。各銘柄について:
+   - `inputs/matches/<TICKER>/matched.json` の items が **0 件 → SKIP**(build_dossier も write_article も呼ばない)
+   - **1 件以上 → 記事化**: `python scripts/build_dossier.py <TICKER>` → `bash scripts/write_article.sh <TICKER> <date>` を順に実行
+
+つまり**前段(RSS 取得 + 銘柄振り分け)は重複なく 1 回ずつ走り、後段(dossier 生成 + 記事化)だけがニュースを拾えた銘柄ぶん繰り返される**構造です。
+
+`<date>` はスクリプト冒頭で `date +%Y-%m-%d` を 1 度だけ採取し、すべての段で同じ値を使います。`.venv/bin/python` があれば優先し、無ければ system の `python3` にフォールバックします。
+
+### fail-fast / SKIP / per-ticker 隔離の切り分け
+
+- **前段(依存チェック / fetch_rss / match_news)は fail-fast**。落ちたら pipeline 全体停止、`[FAILED] step=N/M ... exit=...` を stderr に出して exit 1。これらが落ちると全銘柄が記事化できないため、ここだけは速やかに止める方針。
+- **後段の SKIP**: 当日の matched.json の items が 0 件の銘柄は SKIP。記事化を行わないだけで失敗扱いにしません。最終サマリに `[SKIP] TICKER no matched news` として 1 行表示されます。`outputs/articles/` には何も書かれません。
+- **後段の per-ticker 隔離**: ある銘柄の build_dossier / write_article が落ちても、その銘柄だけ FAIL に倒れ、他銘柄は最後まで処理を続行します。最終サマリで OK / SKIP / FAIL を一覧表示。daily_prepare 全体の exit code は前段が成功していれば 0(後段の per-ticker 失敗・SKIP はサマリ報告のみ)。
+
+### 出力の流れ(stdout / stderr の役割分担)
+
+- **stdout**: 成功した銘柄の article path だけを yaml 順に 1 行ずつ。SKIP / FAIL は出ません。**`xargs -n1 open` や `code $(...)` にそのままパイプできる契約**。
+- **stderr**: バナー、各ステップの進行ログ、`[match summary]` の OK/SKIP 件数、銘柄別 OK/SKIP/FAIL サマリ、総時間。
+
+検証用に `./scripts/daily_prepare.sh > /dev/null` を流すと進行ログだけが見え、`./scripts/daily_prepare.sh 2>/dev/null` を流すと記事 path のリストだけが見えます。
+
+### 銘柄を増やしたい・止めたい・並びを変えたいとき
+
+`scripts/daily_prepare.sh` は [config/coins.yaml](config/coins.yaml) の `enabled: true` を yaml の並び順で読み込みます。**スクリプト側に銘柄リストはありません**。
+
+- **銘柄を追加**: `config/coins.yaml` に新しいエントリ(`ticker` / `name` / `aliases` / `themes` / `required_context_terms` / `enabled`)を追加するだけ。雛形は既存 BTC / ETH / SOL のブロックを参照。
+- **銘柄を一時的に止める**: 該当エントリを `enabled: false` に変える。daily_prepare の対象から外れます(yaml から削除する必要はない)。
+- **並びを変える**: yaml 内のエントリ順を入れ替える(出力順 = stdout の path 順 = サマリの一覧順)。
 
 [inputs/research/](inputs/research/) に `<TICKER>.md` を置くと per-ticker で背景知識が prompt に注入されます(opt-in、無くても動く)。雛形は `inputs/research/BTC.md.example` / `ETH.md.example` / `SOL.md.example`。詳しくは下記「記事生成」節 → 「現行仕様」 → 「背景知識」サブ節を参照してください。
 

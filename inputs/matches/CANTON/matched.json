@@ -1,0 +1,49 @@
+{
+  "ticker": "CANTON",
+  "name": "Canton Coin",
+  "source_news_path": "inputs/raw/2026-05-01/news.json",
+  "matched_at": "2026-05-01T09:15:27.633131+09:00",
+  "match_count": 1,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Visa Adds Base, Polygon, Canton, Arc and Tempo to Stablecoin Settlement Program",
+      "url": "https://decrypt.co/365968/visa-base-polygon-canton-arc-tempo-stablecoin-settlement-program",
+      "summary": "Payments giant Visa scales its blockchain settlement infrastructure with five new networks as pilot program shows 50% quarterly growth.",
+      "published_at": "2026-04-29T14:43:32+00:00",
+      "score": 3,
+      "matched_terms": [
+        "CANTON"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "CANTON"
+          ],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": false,
+        "cross_market_coin_count": 2,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "CANTON",
+            "points": 3
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

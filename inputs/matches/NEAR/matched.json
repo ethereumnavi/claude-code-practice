@@ -1,33 +1,33 @@
 {
-  "ticker": "SOL",
-  "name": "Solana",
+  "ticker": "NEAR",
+  "name": "NEAR Protocol",
   "source_news_path": "inputs/raw/2026-05-12/news.json",
   "matched_at": "2026-05-12T08:28:58.313794+09:00",
   "match_count": 1,
   "rejected_count": 0,
   "items": [
     {
-      "source": "decrypt",
-      "source_name": "Decrypt",
-      "title": "Major Solana Upgrade Alpenglow Begins Testing Ahead of Full Rollout",
-      "url": "https://decrypt.co/367470/solana-alpenglow-upgrade-begins-testing-ahead-full-rollout",
-      "summary": "Solana's Alpenglow consensus protocol upgrade is one step closer to being rolled out on the layer-1 network's mainnet.",
-      "published_at": "2026-05-11T18:45:09+00:00",
+      "source": "thedefiant",
+      "source_name": "The Defiant",
+      "title": "NEAR Intents Expands Crosschain Swaps to Support 100+ Tokens Into Zcash: NEAR",
+      "url": "https://thedefiant.io/news/defi/near-intents-100-tokens-zcash-swaps-5djz2b",
+      "summary": "NEAR Intents upgraded its frontend to enable single-flow swaps from over 100 tokens directly into ZEC, leveraging intent-based architecture for crosschain transactions.",
+      "published_at": "2026-05-11T20:17:29+00:00",
       "score": 4,
       "matched_terms": [
-        "Solana"
+        "NEAR"
       ],
       "matched_in": {
         "title": {
           "aliases": [
-            "Solana"
+            "NEAR"
           ],
           "themes": [],
           "context": []
         },
         "summary": {
           "aliases": [
-            "Solana"
+            "NEAR"
           ],
           "themes": [],
           "context": []
@@ -40,12 +40,12 @@
         "signals": [
           {
             "signal": "title_alias",
-            "term": "Solana",
+            "term": "NEAR",
             "points": 3
           },
           {
             "signal": "summary_alias",
-            "term": "Solana",
+            "term": "NEAR",
             "points": 1
           }
         ]

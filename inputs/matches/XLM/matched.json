@@ -1,0 +1,49 @@
+{
+  "ticker": "XLM",
+  "name": "Stellar",
+  "source_news_path": "inputs/raw/2026-05-07/news.json",
+  "matched_at": "2026-05-07T11:32:23.453646+09:00",
+  "match_count": 1,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "thedefiant",
+      "source_name": "The Defiant",
+      "title": "Stellar Gets Its First Regulated, Yield-Bearing Stablecoin with YLDS Launch",
+      "url": "https://thedefiant.io/news/defi/figure-ylds-launches-on-stellar",
+      "summary": "YLDS is an SEC-registered, USD-pegged stable asset from Figure.",
+      "published_at": "2026-05-05T14:30:00+00:00",
+      "score": 3,
+      "matched_terms": [
+        "Stellar"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Stellar"
+          ],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Stellar",
+            "points": 3
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

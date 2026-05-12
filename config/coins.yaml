@@ -96,3 +96,563 @@ coins:
       - "Solana Mobile"
       - "Marinade"
     enabled: true
+
+  - ticker: XRP
+    name: Ripple
+    aliases:
+      - "Ripple"
+      - "XRP"
+      - "リップル"
+      - "エックスアールピー"
+      - "$XRP"
+    themes:
+      - "ODL"
+      - "cross-border payment"
+    required_context_terms:
+      - "Ripple Labs"
+      - "Brad Garlinghouse"
+      - "RippleNet"
+      - "Stuart Alderoty"
+    enabled: true
+
+  - ticker: LTC
+    name: Litecoin
+    aliases:
+      - "Litecoin"
+      - "ライトコイン"
+      - "$LTC"
+      - "LTC"
+    themes:
+      - "halving"
+    required_context_terms:
+      - "Charlie Lee"
+      - "Litecoin Foundation"
+    enabled: true
+
+  - ticker: BCH
+    name: Bitcoin Cash
+    aliases:
+      - "Bitcoin Cash"
+      - "ビットコインキャッシュ"
+      - "$BCH"
+      - "BCH"
+    themes:
+      - "halving"
+    required_context_terms:
+      - "Roger Ver"
+      - "BCH halving"
+      - "Bitcoin ABC"
+    enabled: true
+
+  - ticker: DOT
+    name: Polkadot
+    aliases:
+      - "Polkadot"
+      - "ポルカドット"
+      - "$DOT"
+      - "DOT"
+    themes:
+      - "parachain"
+    required_context_terms:
+      - "Gavin Wood"
+      - "parachain"
+      - "Web3 Foundation"
+      - "Kusama"
+    enabled: true
+
+  - ticker: LINK
+    name: Chainlink
+    aliases:
+      - "Chainlink"
+      - "チェーンリンク"
+      - "$LINK"
+      - "LINK"
+    themes:
+      - "oracle"
+      - "CCIP"
+    required_context_terms:
+      - "Sergey Nazarov"
+      - "CCIP"
+      - "Chainlink Labs"
+    enabled: true
+
+  - ticker: ADA
+    name: Cardano
+    aliases:
+      - "Cardano"
+      - "カルダノ"
+      - "$ADA"
+      - "ADA"
+    themes:
+      - "Hydra"
+    required_context_terms:
+      - "Charles Hoskinson"
+      - "IOG"
+      - "IOHK"
+      - "Hydra"
+      - "Ouroboros"
+    enabled: true
+
+  - ticker: DOGE
+    name: Dogecoin
+    aliases:
+      - "Dogecoin"
+      - "ドージコイン"
+      - "$DOGE"
+      - "DOGE"
+    themes:
+      - "memecoin"
+    required_context_terms:
+      - "Dogecoin Foundation"
+      - "Shibetoshi"
+      - "Markus"
+    enabled: true
+
+  - ticker: XLM
+    name: Stellar
+    aliases:
+      - "Stellar"
+      - "Stellar Lumens"
+      - "ステラルーメン"
+      - "ステラ"
+      - "$XLM"
+      - "XLM"
+    themes:
+      - "remittance"
+    required_context_terms:
+      - "Stellar Development Foundation"
+      - "SDF"
+      - "Jed McCaleb"
+    enabled: true
+
+  - ticker: XTZ
+    name: Tezos
+    aliases:
+      - "Tezos"
+      - "テゾス"
+      - "$XTZ"
+      - "XTZ"
+    themes:
+      - "baking"
+    required_context_terms:
+      - "Tezos Foundation"
+      - "Arthur Breitman"
+    enabled: true
+
+  - ticker: AVAX
+    name: Avalanche
+    aliases:
+      - "Avalanche"
+      - "アバランチ"
+      - "$AVAX"
+      - "AVAX"
+    themes:
+      - "subnet"
+    required_context_terms:
+      - "Ava Labs"
+      - "subnet"
+      - "Emin Gun Sirer"
+    enabled: true
+
+  - ticker: MATIC
+    name: Polygon
+    aliases:
+      - "Polygon"
+      - "ポリゴン"
+      - "MATIC"
+      - "$MATIC"
+      - "POL"
+      - "$POL"
+    themes:
+      - "zkEVM"
+      - "rollup"
+    required_context_terms:
+      - "Polygon Labs"
+      - "zkEVM"
+      - "Polygon PoS"
+      - "Sandeep Nailwal"
+    enabled: true
+
+  - ticker: FLR
+    name: Flare
+    aliases:
+      - "Flare"
+      - "Flare Network"
+      - "フレア"
+      - "$FLR"
+      - "FLR"
+    themes:
+      - "FAssets"
+    required_context_terms:
+      - "Flare Network"
+      - "Hugo Philion"
+    enabled: true
+
+  - ticker: OAS
+    name: Oasys
+    aliases:
+      - "Oasys"
+      - "オアシス"
+      - "$OAS"
+      - "OAS"
+    themes:
+      - "gaming"
+    required_context_terms:
+      - "Oasys"
+      - "Oasys Verse"
+      - "double bridge"
+    enabled: true
+
+  - ticker: XDC
+    name: XDC Network
+    aliases:
+      - "XDC Network"
+      - "XDC"
+      - "エックスディーシー"
+      - "$XDC"
+    themes:
+      - "trade finance"
+    required_context_terms:
+      - "XDC Network"
+      - "XinFin"
+    enabled: true
+
+  - ticker: SHIB
+    name: Shiba Inu
+    aliases:
+      - "Shiba Inu"
+      - "シバイヌ"
+      - "柴犬コイン"
+      - "$SHIB"
+      - "SHIB"
+    themes:
+      - "memecoin"
+    required_context_terms:
+      - "Shibarium"
+      - "Ryoshi"
+      - "Shib Army"
+    enabled: true
+
+  - ticker: DAI
+    name: Dai
+    aliases:
+      - "DAI stablecoin"
+      - "DAI"
+      - "$DAI"
+      - "ダイ"
+    themes:
+      - "stablecoin"
+    required_context_terms:
+      - "MakerDAO"
+      - "Maker Protocol"
+      - "Sky Protocol"
+      - "Rune Christensen"
+    enabled: true
+
+  - ticker: ATOM
+    name: Cosmos
+    aliases:
+      - "Cosmos"
+      - "Cosmos Hub"
+      - "コスモス"
+      - "$ATOM"
+      - "ATOM"
+    themes:
+      - "IBC"
+    required_context_terms:
+      - "Cosmos Hub"
+      - "Tendermint"
+      - "IBC"
+      - "Interchain"
+    enabled: true
+
+  - ticker: APT
+    name: Aptos
+    aliases:
+      - "Aptos"
+      - "アプトス"
+      - "$APT"
+      - "APT"
+    themes:
+      - "Move"
+    required_context_terms:
+      - "Aptos Labs"
+      - "Move VM"
+      - "Mo Shaikh"
+    enabled: true
+
+  - ticker: HBAR
+    name: Hedera
+    aliases:
+      - "Hedera"
+      - "Hedera Hashgraph"
+      - "ヘデラ"
+      - "$HBAR"
+      - "HBAR"
+    themes:
+      - "hashgraph"
+    required_context_terms:
+      - "Hedera Hashgraph"
+      - "Leemon Baird"
+      - "HBAR Foundation"
+    enabled: true
+
+  - ticker: ZPG
+    name: ZipangCoin
+    aliases:
+      - "ZipangCoin"
+      - "Zipang Coin"
+      - "ジパングコイン"
+      - "$ZPG"
+      - "ZPG"
+    themes: []
+    required_context_terms:
+      - "Mitsubishi UFJ Trust"
+      - "三菱UFJ信託"
+    enabled: true
+
+  - ticker: NEAR
+    name: NEAR Protocol
+    aliases:
+      - "NEAR Protocol"
+      - "NEAR"
+      - "ニアー"
+      - "$NEAR"
+    themes:
+      - "sharding"
+    required_context_terms:
+      - "NEAR Foundation"
+      - "Illia Polosukhin"
+      - "Nightshade"
+    enabled: true
+
+  - ticker: USDC
+    name: USD Coin
+    aliases:
+      - "USD Coin"
+      - "USDC"
+      - "ユーエスディーシー"
+      - "$USDC"
+    themes:
+      - "stablecoin"
+    required_context_terms:
+      - "Circle"
+      - "Jeremy Allaire"
+      - "Circle Internet Financial"
+    enabled: true
+
+  - ticker: NIDT
+    name: Nippon Idol Token
+    aliases:
+      - "Nippon Idol Token"
+      - "ニッポンアイドルトークン"
+      - "$NIDT"
+      - "NIDT"
+    themes: []
+    required_context_terms: []
+    enabled: true
+
+  - ticker: ALGO
+    name: Algorand
+    aliases:
+      - "Algorand"
+      - "アルゴランド"
+      - "$ALGO"
+      - "ALGO"
+    themes: []
+    required_context_terms:
+      - "Algorand Foundation"
+      - "Silvio Micali"
+    enabled: true
+
+  - ticker: APE
+    name: ApeCoin
+    aliases:
+      - "ApeCoin"
+      - "エイプコイン"
+      - "$APE"
+      - "APE"
+    themes: []
+    required_context_terms:
+      - "Yuga Labs"
+      - "Bored Ape"
+      - "ApeCoin DAO"
+    enabled: true
+
+  - ticker: AXS
+    name: Axie Infinity
+    aliases:
+      - "Axie Infinity"
+      - "アクシーインフィニティ"
+      - "Axie"
+      - "$AXS"
+      - "AXS"
+    themes:
+      - "GameFi"
+    required_context_terms:
+      - "Sky Mavis"
+      - "Ronin"
+    enabled: true
+
+  - ticker: BAT
+    name: Basic Attention Token
+    aliases:
+      - "Basic Attention Token"
+      - "ベーシックアテンショントークン"
+      - "$BAT"
+      - "BAT"
+    themes: []
+    required_context_terms:
+      - "Brave Browser"
+      - "Brave Software"
+      - "Brendan Eich"
+    enabled: true
+
+  - ticker: CHZ
+    name: Chiliz
+    aliases:
+      - "Chiliz"
+      - "チリーズ"
+      - "$CHZ"
+      - "CHZ"
+    themes:
+      - "fan token"
+    required_context_terms:
+      - "Socios"
+      - "Socios.com"
+      - "Chiliz Chain"
+    enabled: true
+
+  - ticker: ETC
+    name: Ethereum Classic
+    aliases:
+      - "Ethereum Classic"
+      - "イーサリアムクラシック"
+      - "$ETC"
+      - "ETC"
+    themes:
+      - "PoW"
+    required_context_terms:
+      - "Ethereum Classic"
+      - "ETC Cooperative"
+      - "DAO fork"
+    enabled: true
+
+  - ticker: MKR
+    name: Maker
+    aliases:
+      - "MakerDAO"
+      - "Maker"
+      - "メイカー"
+      - "$MKR"
+      - "MKR"
+    themes:
+      - "DeFi"
+    required_context_terms:
+      - "MakerDAO"
+      - "Sky Protocol"
+      - "Rune Christensen"
+    enabled: true
+
+  - ticker: OMG
+    name: OMG Network
+    aliases:
+      - "OMG Network"
+      - "オーエムジー"
+      - "$OMG"
+      - "OMG"
+    themes: []
+    required_context_terms:
+      - "OMG Network"
+      - "OMG Foundation"
+      - "Plasma"
+    enabled: true
+
+  - ticker: SAND
+    name: The Sandbox
+    aliases:
+      - "The Sandbox"
+      - "Sandbox"
+      - "サンドボックス"
+      - "$SAND"
+      - "SAND"
+    themes:
+      - "metaverse"
+    required_context_terms:
+      - "Animoca Brands"
+      - "The Sandbox"
+      - "Sebastien Borget"
+    enabled: true
+
+  - ticker: TRX
+    name: TRON
+    aliases:
+      - "TRON"
+      - "トロン"
+      - "$TRX"
+      - "TRX"
+    themes:
+      - "USDT"
+    required_context_terms:
+      - "Justin Sun"
+      - "TRON DAO"
+    enabled: true
+
+  - ticker: TON
+    name: Toncoin
+    aliases:
+      - "Toncoin"
+      - "The Open Network"
+      - "トンコイン"
+      - "$TON"
+      - "TON"
+    themes:
+      - "Telegram"
+    required_context_terms:
+      - "Telegram"
+      - "TON Foundation"
+      - "Open Network"
+      - "Pavel Durov"
+    enabled: true
+
+  - ticker: SUI
+    name: Sui
+    aliases:
+      - "Sui"
+      - "$SUI"
+      - "SUI"
+      - "スイ"
+    themes:
+      - "Move"
+    required_context_terms:
+      - "Mysten Labs"
+      - "Sui Network"
+      - "Sui Foundation"
+    enabled: true
+
+  - ticker: BERA
+    name: Berachain
+    aliases:
+      - "Berachain"
+      - "ベラ"
+      - "$BERA"
+      - "BERA"
+    themes: []
+    required_context_terms:
+      - "Berachain"
+      - "Proof of Liquidity"
+    enabled: true
+
+  - ticker: CANTON
+    name: Canton Coin
+    aliases:
+      - "Canton Coin"
+      - "Canton Network"
+      - "カントンコイン"
+      - "$CANTON"
+      - "CANTON"
+    themes: []
+    required_context_terms:
+      - "Canton Network"
+      - "Digital Asset"
+    enabled: true

@@ -1,162 +1,77 @@
 # BTC — Bitcoin
 
-- Source news: `inputs/raw/2026-04-30/news.json`
-- Matched at: 2026-04-30T11:26:53.623016+09:00
-- Match count: 15 (rejected: 0)
+- Source news: `inputs/raw/2026-05-12/news.json`
+- Matched at: 2026-05-12T08:28:58.313794+09:00
+- Match count: 6 (rejected: 1)
 
-## 1. [Bitcoin slips to $75,000 as Fed holds rates, dissenters chill Warsh ‘pivot party’](https://www.theblock.co/post/399465/bitcoin-slips-75000-fed-holds-rates-dissenters-chill-warsh-pivot-party?utm_source=rss&utm_medium=rss)
+## 1. [Bitcoin Tests $82K As Crypto Funds Notch Sixth Straight Week Of Inflows](https://thedefiant.io/news/markets/bitcoin-tests-usd82k-as-crypto-funds-notch-sixth-straight-week-of-inflows)
 
-- Source: The Block (`theblock`)
-- Published: 2026-04-29T20:19:58+00:00
+- Source: The Defiant (`thedefiant`)
+- Published: 2026-05-11T20:09:01+00:00
 - Matched terms: Bitcoin
 - Score: 3
 
-<p>A split 8-4 vote initially spooked markets, creating uncertainty around the Federal Reserve's future policy moves.</p>
+Crypto investment products absorbed $858 million last week, ahead of the upcoming CLARITY Act markup and Fed chair transition.
 
 ---
 
-## 2. [Eric Trump says bitcoin in its 'greatest period ever' as Wall Street falls in line](https://www.coindesk.com/markets/2026/04/29/eric-trump-says-bitcoin-in-its-greatest-period-ever-as-wall-street-falls-in-line)
+## 2. [Strategy Resumes Weekly Buys with Smallest BTC Purchase Since December](https://thedefiant.io/news/tradfi-and-fintech/largest-digital-asset-treasuries-slow-weekly-buys)
 
-- Source: CoinDesk (`coindesk`)
-- Published: 2026-04-29T19:49:14+00:00
-- Matched terms: Bitcoin
+- Source: The Defiant (`thedefiant`)
+- Published: 2026-05-11T20:03:30+00:00
+- Matched terms: BTC
 - Score: 3
 
+Meanwhile, the largest Ethereum DAT, Bitmine, made its smallest ETH purchase since January, announcing it will slow its weekly purchase pace.
+
 ---
 
-## 3. [Bitcoin, Ethereum Dip as Fed Holds Rates Steady for Third Straight Time](https://decrypt.co/366008/bitcoin-ethereum-dip-fed-holds-rates-steady-third-straight-time)
+## 3. [Keel Infrastructure Posts $145 Million Loss as Firm Completes Pivot From Bitcoin Miner to AI](https://decrypt.co/367447/keel-infrastructure-posts-145-million-loss-pivot-bitcoin-miner-ai)
 
 - Source: Decrypt (`decrypt`)
-- Published: 2026-04-29T18:14:42+00:00
-- Matched terms: Bitcoin
-- Score: 3
+- Published: 2026-05-11T17:25:41+00:00
+- Matched terms: Bitcoin, miner
+- Score: 5
 
-Wednesday's FOMC meeting was expected to be Jerome Powell’s last as Federal Reserve chair.
+Formerly known as Bitfarms, the newly rebranded Keel touted a $533 million war chest to fund AI infrastructure buildout.
 
 ---
 
-## 4. [Canadian Government Pushes for Sweeping Ban on Bitcoin, Crypto ATMs](https://decrypt.co/365983/canadian-government-pushes-sweeping-ban-bitcoin-crypto-atms)
+## 4. [Strategy Resumes Bitcoin Buys as Saylor Shifts Focus to 'Never Be a Net Seller'](https://decrypt.co/367391/strategy-resumes-bitcoin-buys-as-saylor-shifts-focus-to-never-be-a-net-seller)
 
 - Source: Decrypt (`decrypt`)
-- Published: 2026-04-29T16:20:39+00:00
-- Matched terms: Bitcoin
-- Score: 3
+- Published: 2026-05-11T13:05:35+00:00
+- Matched terms: BTC, Bitcoin, Saylor
+- Score: 11
 
-The country hosts nearly 4,000 crypto ATMs, second only to the U.S.
-
----
-
-## 5. [Bitcoin's widely tracked Coinbase Premium turns negative as realized losses spike to $6 billion](https://www.coindesk.com/markets/2026/04/29/bitcoin-s-widely-tracked-coinbase-premium-turns-negative-as-realized-losses-spike-to-usd6-billion)
-
-- Source: CoinDesk (`coindesk`)
-- Published: 2026-04-29T16:13:55+00:00
-- Matched terms: Bitcoin
-- Score: 3
+The treasury firm resumed Bitcoin buys after last week's pause, with Michael Saylor saying that Strategy would buy 30 BTC for every one sold.
 
 ---
 
-## 6. [The AI-crypto disconnect: Why Pantera’s CEO thinks institutions are missing the boat on bitcoin](https://www.coindesk.com/markets/2026/04/29/ai-stocks-are-overheated-and-crypto-is-incredibly-cheap-pantera-ceo-dan-morehead-says)
-
-- Source: CoinDesk (`coindesk`)
-- Published: 2026-04-29T15:25:39+00:00
-- Matched terms: Bitcoin
-- Score: 3
-
----
-
-## 7. [Bitcoin ETFs fuel institutional surge, 21Shares' CIO sees $100K possible by year-end](https://www.coindesk.com/coindesk-news/2026/04/29/bitcoin-etfs-fuel-institutional-surge-21shares-cio-sees-usd100k-possible-by-year-end)
-
-- Source: CoinDesk (`coindesk`)
-- Published: 2026-04-29T15:03:03+00:00
-- Matched terms: Bitcoin
-- Score: 3
-
----
-
-## 8. [Bitcoin's Upside Capped by $82K Sell Wall as UAE’s OPEC Exit Triggers Risk Sell-Off](https://decrypt.co/365942/bitcoins-upside-capped-by-82k-sell-wall-as-uaes-opec-exit-triggers-risk-sell-off)
+## 5. [Crypto Firms Race to 'Quantum-Proof' Wallets Before Bitcoin, Ethereum Networks Catch Up](https://decrypt.co/367321/crypto-firms-race-quantum-proof-wallets-bitcoin-ethereum)
 
 - Source: Decrypt (`decrypt`)
-- Published: 2026-04-29T13:44:51+00:00
+- Published: 2026-05-10T16:49:28+00:00
+- Matched terms: Bitcoin
+- Score: 3
+
+Crypto companies are upgrading wallets to counter the coming quantum computing threat, but gaps remain.
+
+---
+
+## 6. [Australian Police Seize Millions in Bitcoin From Alleged Darknet Marketplace Operator](https://decrypt.co/367363/australian-police-seize-millions-bitcoin-darknet-marketplace-operator)
+
+- Source: Decrypt (`decrypt`)
+- Published: 2026-05-09T17:24:07+00:00
 - Matched terms: Bitcoin
 - Score: 4
 
-Multiple $3.3 million sell walls sit between $80,400 and $82,000 as oil volatility and rising real rates keep Bitcoin trapped.
+Two men face money laundering and drug charges following the seizure of $4.2 million in Bitcoin from alleged darknet marketplace dealings.
 
 ---
 
-## 9. [Paul Tudor Jones says bitcoin is ‘unequivocally the best inflation hedge’](https://www.theblock.co/post/399374/paul-tudor-jones-bitcoin-inflation-hedge?utm_source=rss&utm_medium=rss)
+## 棄却記事(参考)
 
-- Source: The Block (`theblock`)
-- Published: 2026-04-29T13:36:01+00:00
-- Matched terms: Bitcoin
-- Score: 3
+以下はしきい値未満で棄却された記事です。スコアリング調整時の参考に残しています。
 
-<p>However, the hedge fund manager did acknowledge concerns surrounding potential cyber warfare and quantum computing risks.</p>
-
----
-
-## 10. [Bitcoin holds above $77,000 as ETF outflows extend ahead of what may be Powell’s final FOMC meeting](https://www.theblock.co/post/399369/bitcoin-holds-above-77000-as-etf-outflows-extend-ahead-of-what-may-be-powells-final-fomc-meeting?utm_source=rss&utm_medium=rss)
-
-- Source: The Block (`theblock`)
-- Published: 2026-04-29T13:22:14+00:00
-- Matched terms: Bitcoin
-- Score: 4
-
-<p>Analysts say bitcoin traders are watching whether the Fed reinforces a higher-for-longer stance after two straight days of ETF outflows.</p>
-
----
-
-## 11. [Morning Minute: Paul Tudor Jones Calls Bitcoin Strongest Inflation Hedge](https://decrypt.co/365934/morning-minute-paul-tudor-jones-calls-bitcoin-strongest-inflation-hedge)
-
-- Source: Decrypt (`decrypt`)
-- Published: 2026-04-29T11:55:03+00:00
-- Matched terms: Bitcoin
-- Score: 3
-
-Crypto majors rebound ahead of FOMC, despite oil surging, while Polymarket is making a push to enter the U.S.
-
----
-
-## 12. [Woman Gets 71 Months in Prison Over Bitcoin Investment Fraud Targeting Elderly Victims](https://decrypt.co/365894/woman-71-months-prison-bitcoin-investment-fraud-targeting-elderly-victims)
-
-- Source: Decrypt (`decrypt`)
-- Published: 2026-04-28T22:01:02+00:00
-- Matched terms: Bitcoin
-- Score: 4
-
-Federal prosecutors secured a prison term for a Saipan woman who defrauded elderly victims through a fake Bitcoin investment scheme
-
----
-
-## 13. [IREN Price Target Cut as Bernstein Sees Firm Dumping Bitcoin Mining for AI](https://decrypt.co/365852/iren-price-target-cut-as-bernstein-sees-firm-dumping-bitcoin-mining-for-ai)
-
-- Source: Decrypt (`decrypt`)
-- Published: 2026-04-28T18:09:08+00:00
-- Matched terms: Bitcoin
-- Score: 4
-
-Bernstein analysts see IREN’s AI cloud prospects growing substantially in the coming years—and its Bitcoin business disappearing entirely.
-
----
-
-## 14. [Stablecoin Giant Tether Reveals Plans for Modular Bitcoin Mining Hardware](https://decrypt.co/365840/stablecoin-giant-tether-modular-bitcoin-mining-hardware)
-
-- Source: Decrypt (`decrypt`)
-- Published: 2026-04-28T16:50:38+00:00
-- Matched terms: Bitcoin
-- Score: 4
-
-Leading stablecoin issuer Tether has teamed with Canaan and ACME Swisstech to develop customizable, upgradable Bitcoin mining rigs.
-
----
-
-## 15. [White House Crypto Adviser Hints at ‘Breakthrough’ Bitcoin Reserve Move](https://decrypt.co/365801/white-house-crypto-adviser-hints-at-breakthrough-bitcoin-reserve-move)
-
-- Source: Decrypt (`decrypt`)
-- Published: 2026-04-28T13:30:24+00:00
-- Matched terms: Bitcoin
-- Score: 4
-
-A "big announcement" on the U.S. Bitcoin strategic reserve could drop soon, but Treasury and a stalled Senate bill continue to set limits.
-
----
+- (score=1) [Crypto Funds Add $858M as Clarity Act Drives Market Optimism](https://decrypt.co/367382/crypto-funds-add-858m-as-clarity-act-drives-market-optimism) — Decrypt, ヒット: Bitcoin

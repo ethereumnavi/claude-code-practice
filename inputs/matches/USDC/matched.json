@@ -1,0 +1,125 @@
+{
+  "ticker": "USDC",
+  "name": "USD Coin",
+  "source_news_path": "inputs/raw/2026-05-12/news.json",
+  "matched_at": "2026-05-12T08:28:58.313794+09:00",
+  "match_count": 2,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Circle Gives AI Agents USDC Stablecoin Powers Alongside $222M Arc Token Sale",
+      "url": "https://decrypt.co/367490/circle-ai-agents-usdc-stablecoin-powers-222m-arc-token-sale",
+      "summary": "USDC issuer Circle launched a suite of tools designed to let AI agents hold money, pay for services, and transact without human involvement.",
+      "published_at": "2026-05-11T21:15:46+00:00",
+      "score": 12,
+      "matched_terms": [
+        "Circle",
+        "USDC",
+        "stablecoin"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "USDC"
+          ],
+          "themes": [
+            "stablecoin"
+          ],
+          "context": [
+            "Circle"
+          ]
+        },
+        "summary": {
+          "aliases": [
+            "USDC"
+          ],
+          "themes": [],
+          "context": [
+            "Circle"
+          ]
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "USDC",
+            "points": 3
+          },
+          {
+            "signal": "summary_alias",
+            "term": "USDC",
+            "points": 1
+          },
+          {
+            "signal": "title_context",
+            "term": "Circle",
+            "points": 4
+          },
+          {
+            "signal": "summary_context",
+            "term": "Circle",
+            "points": 2
+          },
+          {
+            "signal": "title_theme",
+            "term": "stablecoin",
+            "points": 2
+          }
+        ]
+      }
+    },
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Circle Raises $222M in Arc Token Presale at $3B Valuation",
+      "url": "https://decrypt.co/367386/circle-raises-222m-in-arc-token-presale-at-3b-valuation",
+      "summary": "The USDC issuer announced the raise, with investors including Andreessen Horowitz and Blackrock, alongside its Q1 results.",
+      "published_at": "2026-05-11T12:31:50+00:00",
+      "score": 5,
+      "matched_terms": [
+        "Circle",
+        "USDC"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [],
+          "themes": [],
+          "context": [
+            "Circle"
+          ]
+        },
+        "summary": {
+          "aliases": [
+            "USDC"
+          ],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": false,
+        "cross_market_coin_count": 0,
+        "signals": [
+          {
+            "signal": "summary_alias",
+            "term": "USDC",
+            "points": 1
+          },
+          {
+            "signal": "title_context",
+            "term": "Circle",
+            "points": 4
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

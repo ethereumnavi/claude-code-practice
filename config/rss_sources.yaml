@@ -10,19 +10,19 @@
 #   enabled: false にすると fetch_rss.py がスキップする。
 
 sources:
-  - id: coindesk
-    name: CoinDesk
-    url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
-    enabled: true
-
   - id: decrypt
     name: Decrypt
     url: "https://decrypt.co/feed"
     enabled: true
 
-  - id: theblock
-    name: The Block
-    url: "https://www.theblock.co/rss.xml"
+  - id: thedefiant
+    name: The Defiant
+    url: "https://thedefiant.io/api/feed"
+    enabled: true
+
+  - id: coinpost
+    name: CoinPost
+    url: "https://coinpost.jp/rss.xml"
     enabled: true
 
 # 取得時の共通設定

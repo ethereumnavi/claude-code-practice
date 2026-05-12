@@ -7,10 +7,10 @@
 #
 # 設計:
 # - パイプラインは fetch_rss → match_news → build_dossier → write_article の 4 段。
-# - TICKERS 配列で複数銘柄を一括処理。先頭が主役(出力順・確認順は配列順)。
+# - 対象銘柄は config/coins.yaml の enabled: true から動的に読み込む(yaml の並び順)。
 # - 前段(依存チェック / fetch_rss / match_news)は fail-fast で pipeline 停止。
-# - 後段(build_dossier / write_article)は per-ticker で隔離。1 銘柄が落ちても
-#   他銘柄は続行し、最後にサマリで OK / FAIL を一覧表示する。
+# - 後段(build_dossier / write_article)は per-ticker で隔離。当日のヒットが
+#   1 件以上ある銘柄だけ記事化、ヒット 0 件は SKIP として保存に進まない。
 # - 進行ログ・バナー・サマリは stderr。成功した銘柄の article path のみを stdout に。
 # - 各スクリプトは冪等なので、原因を直して該当ステップから手で再実行できる。
 
@@ -23,14 +23,37 @@ cd "$REPO_ROOT"
 
 # ── 基本設定 ──────────────────────────────────────────────────────────────
 DATE="$(date +%Y-%m-%d)"
-# 配列順がそのまま出力順・確認順になる。先頭の銘柄を主役として扱う。
-# 銘柄を増やす場合は config/coins.yaml にエントリを追加してからここに足す。
-TICKERS=("ETH" "SOL" "BTC")
 
 # Python interpreter:
 #   .venv/bin/python があれば優先。無ければ system の python3 にフォールバック。
 PYTHON="${REPO_ROOT}/.venv/bin/python"
 [[ -x "$PYTHON" ]] || PYTHON="python3"
+
+# ── 対象銘柄を config/coins.yaml から動的に読み込む ──────────────────────
+# enabled: true のものだけ、yaml の並び順で取得する。
+declare -a TICKERS=()
+while IFS= read -r ticker; do
+  [[ -n "$ticker" ]] && TICKERS+=("$ticker")
+done < <("$PYTHON" - <<'PY'
+import sys, yaml
+try:
+    with open("config/coins.yaml", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+except Exception as e:
+    print(f"coins.yaml 読み込み失敗: {e}", file=sys.stderr)
+    sys.exit(1)
+for c in (data.get("coins") or []):
+    if c.get("enabled", True):
+        t = c.get("ticker")
+        if t:
+            print(t)
+PY
+)
+
+if [[ "${#TICKERS[@]}" -eq 0 ]]; then
+  printf '対象銘柄が 0 件です。config/coins.yaml に enabled: true の銘柄を追加してください。\n' >&2
+  exit 1
+fi
 
 # ── 進捗表示ユーティリティ(すべて stderr) ─────────────────────────────
 TOTAL_STEPS=$((2 + 2 * ${#TICKERS[@]}))
@@ -40,6 +63,7 @@ SCRIPT_START=$SECONDS
 
 # 銘柄ごとの結果を TAB 区切りで蓄積:
 #   "OK\t<TICKER>\t<article_path>\t<elapsed_sec>"
+#   "SKIP\t<TICKER>\tno matches\t0"
 #   "FAIL\t<TICKER>\t<failed_stage>\t<elapsed_sec>"
 declare -a RESULTS=()
 
@@ -75,7 +99,7 @@ trap on_err ERR
 {
   printf 'daily_prepare\n'
   printf '  date    : %s\n' "$DATE"
-  printf '  tickers : %s\n' "${TICKERS[*]}"
+  printf '  tickers : %d 銘柄(coins.yaml 由来): %s\n' "${#TICKERS[@]}" "${TICKERS[*]}"
   printf '  python  : %s\n' "$PYTHON"
 } >&2
 
@@ -110,8 +134,44 @@ t0=$SECONDS
 "$PYTHON" scripts/match_news.py "$DATE" >&2
 step_done "match_news.py $DATE" "$((SECONDS - t0))"
 
-# ── ステップ 3〜4: 銘柄ごとに dossier → article(per-ticker 隔離) ───────
-for TICKER in "${TICKERS[@]}"; do
+# ── 各銘柄の SKIP 判定(matched.json の items が 0 件なら SKIP) ─────────
+# ELIGIBLE_TICKERS にだけ後段(build_dossier → write_article)を回す。
+# SKIP した銘柄は STEP_NUM を進めず、サマリにのみ [SKIP] として残す。
+declare -a ELIGIBLE_TICKERS=()
+SKIP_LIST="$("$PYTHON" - "${TICKERS[@]}" <<'PY'
+import json, os, sys
+for t in sys.argv[1:]:
+    path = os.path.join("inputs", "matches", t, "matched.json")
+    items = []
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                items = (json.load(f).get("items") or [])
+        except Exception:
+            items = []
+    print(f"{'OK' if items else 'SKIP'}\t{t}")
+PY
+)"
+
+while IFS=$'\t' read -r kind ticker; do
+  case "$kind" in
+    OK)   ELIGIBLE_TICKERS+=("$ticker") ;;
+    SKIP) RESULTS+=("SKIP"$'\t'"$ticker"$'\t'"no matched news"$'\t'"0") ;;
+  esac
+done <<< "$SKIP_LIST"
+
+{
+  printf '\n[match summary] %d 銘柄ヒット / %d 銘柄 SKIP / 全 %d 銘柄\n' \
+    "${#ELIGIBLE_TICKERS[@]}" \
+    "$((${#TICKERS[@]} - ${#ELIGIBLE_TICKERS[@]}))" \
+    "${#TICKERS[@]}"
+  if [[ "${#ELIGIBLE_TICKERS[@]}" -gt 0 ]]; then
+    printf '[match summary] eligible: %s\n' "${ELIGIBLE_TICKERS[*]}"
+  fi
+} >&2
+
+# ── ステップ 3〜: 銘柄ごとに dossier → article(per-ticker 隔離) ────────
+for TICKER in "${ELIGIBLE_TICKERS[@]}"; do
   TICKER_START=$SECONDS
 
   # build_dossier
@@ -143,10 +203,12 @@ TOTAL_MIN=$((TOTAL_ELAPSED / 60))
 TOTAL_SEC=$((TOTAL_ELAPSED % 60))
 
 OK_COUNT=0
+SKIP_COUNT=0
 FAIL_COUNT=0
 for entry in "${RESULTS[@]}"; do
   case "${entry%%$'\t'*}" in
     OK)   OK_COUNT=$((OK_COUNT + 1)) ;;
+    SKIP) SKIP_COUNT=$((SKIP_COUNT + 1)) ;;
     FAIL) FAIL_COUNT=$((FAIL_COUNT + 1)) ;;
   esac
 done
@@ -155,27 +217,42 @@ done
   printf '\n─────────────────────────────────────────────\n'
   printf 'daily_prepare done\n'
   printf '  date    : %s\n' "$DATE"
-  printf '  results : OK=%d / FAIL=%d / total=%d\n' "$OK_COUNT" "$FAIL_COUNT" "${#TICKERS[@]}"
-  for entry in "${RESULTS[@]}"; do
-    IFS=$'\t' read -r status ticker detail elapsed <<< "$entry"
-    case "$status" in
-      OK)
-        printf '    [OK]   %-3s  %s  (%ss)\n' "$ticker" "$detail" "$elapsed"
-        ;;
-      FAIL)
-        printf '    [FAIL] %-3s  %s に失敗  (%ss)\n' "$ticker" "$detail" "$elapsed"
-        ;;
-    esac
+  printf '  results : OK=%d / SKIP=%d / FAIL=%d / total=%d\n' \
+    "$OK_COUNT" "$SKIP_COUNT" "$FAIL_COUNT" "${#TICKERS[@]}"
+  # TICKERS の yaml 順で OK / SKIP / FAIL を一覧表示する。
+  for TICKER in "${TICKERS[@]}"; do
+    for entry in "${RESULTS[@]}"; do
+      IFS=$'\t' read -r status t detail elapsed <<< "$entry"
+      if [[ "$t" == "$TICKER" ]]; then
+        case "$status" in
+          OK)
+            printf '    [OK]   %-6s  %s  (%ss)\n' "$t" "$detail" "$elapsed"
+            ;;
+          SKIP)
+            printf '    [SKIP] %-6s  %s\n' "$t" "$detail"
+            ;;
+          FAIL)
+            printf '    [FAIL] %-6s  %s に失敗  (%ss)\n' "$t" "$detail" "$elapsed"
+            ;;
+        esac
+        break
+      fi
+    done
   done
   printf '  total   : %ss(約%d分%d秒)\n' "$TOTAL_ELAPSED" "$TOTAL_MIN" "$TOTAL_SEC"
   printf '─────────────────────────────────────────────\n'
 } >&2
 
-# ── stdout: 成功した銘柄の article path だけを配列順に 1 行ずつ ──────────
-for entry in "${RESULTS[@]}"; do
-  IFS=$'\t' read -r status _ticker detail _elapsed <<< "$entry"
-  [[ "$status" == "OK" ]] && printf '%s\n' "$detail"
+# ── stdout: 成功した銘柄の article path だけを TICKERS の yaml 順に 1 行ずつ ──
+for TICKER in "${TICKERS[@]}"; do
+  for entry in "${RESULTS[@]}"; do
+    IFS=$'\t' read -r status t detail _elapsed <<< "$entry"
+    if [[ "$t" == "$TICKER" && "$status" == "OK" ]]; then
+      printf '%s\n' "$detail"
+      break
+    fi
+  done
 done
 
-# 後段の per-ticker 失敗は exit 0 のまま(サマリで報告済み)。
+# 後段の per-ticker 失敗・SKIP は exit 0 のまま(サマリで報告済み)。
 # 前段失敗時は trap on_err で先に exit 1 されるため、ここには到達しない。

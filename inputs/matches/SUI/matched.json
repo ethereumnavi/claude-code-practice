@@ -1,0 +1,77 @@
+{
+  "ticker": "SUI",
+  "name": "Sui",
+  "source_news_path": "inputs/raw/2026-05-12/news.json",
+  "matched_at": "2026-05-12T08:28:58.313794+09:00",
+  "match_count": 1,
+  "rejected_count": 0,
+  "items": [
+    {
+      "source": "thedefiant",
+      "source_name": "The Defiant",
+      "title": "SUI Rallies 40% as Mysten Labs Promises Free, Private Payments \"At Scale\"",
+      "url": "https://thedefiant.io/news/blockchains/sui-rallies-40-as-mysten-labs-promises-free-private-payments-at-scale",
+      "summary": "Co-founder Adeniyi Abiodun unveiled confidential transactions at Sui Live Miami, the same week SUI Group Holdings staked its entire $140M treasury.",
+      "published_at": "2026-05-11T18:22:28+00:00",
+      "score": 12,
+      "matched_terms": [
+        "Mysten Labs",
+        "SUI",
+        "Sui"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Sui",
+            "SUI"
+          ],
+          "themes": [],
+          "context": [
+            "Mysten Labs"
+          ]
+        },
+        "summary": {
+          "aliases": [
+            "Sui",
+            "SUI"
+          ],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Sui",
+            "points": 3
+          },
+          {
+            "signal": "title_alias",
+            "term": "SUI",
+            "points": 3
+          },
+          {
+            "signal": "summary_alias",
+            "term": "Sui",
+            "points": 1
+          },
+          {
+            "signal": "summary_alias",
+            "term": "SUI",
+            "points": 1
+          },
+          {
+            "signal": "title_context",
+            "term": "Mysten Labs",
+            "points": 4
+          }
+        ]
+      }
+    }
+  ],
+  "rejected_items": []
+}

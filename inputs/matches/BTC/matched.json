@@ -1,18 +1,18 @@
 {
   "ticker": "BTC",
   "name": "Bitcoin",
-  "source_news_path": "inputs/raw/2026-04-30/news.json",
-  "matched_at": "2026-04-30T11:26:53.623016+09:00",
-  "match_count": 15,
-  "rejected_count": 0,
+  "source_news_path": "inputs/raw/2026-05-12/news.json",
+  "matched_at": "2026-05-12T08:28:58.313794+09:00",
+  "match_count": 6,
+  "rejected_count": 1,
   "items": [
     {
-      "source": "theblock",
-      "source_name": "The Block",
-      "title": "Bitcoin slips to $75,000 as Fed holds rates, dissenters chill Warsh ‘pivot party’",
-      "url": "https://www.theblock.co/post/399465/bitcoin-slips-75000-fed-holds-rates-dissenters-chill-warsh-pivot-party?utm_source=rss&utm_medium=rss",
-      "summary": "<p>A split 8-4 vote initially spooked markets, creating uncertainty around the Federal Reserve's future policy moves.</p>",
-      "published_at": "2026-04-29T20:19:58+00:00",
+      "source": "thedefiant",
+      "source_name": "The Defiant",
+      "title": "Bitcoin Tests $82K As Crypto Funds Notch Sixth Straight Week Of Inflows",
+      "url": "https://thedefiant.io/news/markets/bitcoin-tests-usd82k-as-crypto-funds-notch-sixth-straight-week-of-inflows",
+      "summary": "Crypto investment products absorbed $858 million last week, ahead of the upcoming CLARITY Act markup and Fed chair transition.",
+      "published_at": "2026-05-11T20:09:01+00:00",
       "score": 3,
       "matched_terms": [
         "Bitcoin"
@@ -45,20 +45,20 @@
       }
     },
     {
-      "source": "coindesk",
-      "source_name": "CoinDesk",
-      "title": "Eric Trump says bitcoin in its 'greatest period ever' as Wall Street falls in line",
-      "url": "https://www.coindesk.com/markets/2026/04/29/eric-trump-says-bitcoin-in-its-greatest-period-ever-as-wall-street-falls-in-line",
-      "summary": "",
-      "published_at": "2026-04-29T19:49:14+00:00",
+      "source": "thedefiant",
+      "source_name": "The Defiant",
+      "title": "Strategy Resumes Weekly Buys with Smallest BTC Purchase Since December",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/largest-digital-asset-treasuries-slow-weekly-buys",
+      "summary": "Meanwhile, the largest Ethereum DAT, Bitmine, made its smallest ETH purchase since January, announcing it will slow its weekly purchase pace.",
+      "published_at": "2026-05-11T20:03:30+00:00",
       "score": 3,
       "matched_terms": [
-        "Bitcoin"
+        "BTC"
       ],
       "matched_in": {
         "title": {
           "aliases": [
-            "Bitcoin"
+            "BTC"
           ],
           "themes": [],
           "context": []
@@ -76,7 +76,7 @@
         "signals": [
           {
             "signal": "title_alias",
-            "term": "Bitcoin",
+            "term": "BTC",
             "points": 3
           }
         ]
@@ -85,10 +85,123 @@
     {
       "source": "decrypt",
       "source_name": "Decrypt",
-      "title": "Bitcoin, Ethereum Dip as Fed Holds Rates Steady for Third Straight Time",
-      "url": "https://decrypt.co/366008/bitcoin-ethereum-dip-fed-holds-rates-steady-third-straight-time",
-      "summary": "Wednesday's FOMC meeting was expected to be Jerome Powell’s last as Federal Reserve chair.",
-      "published_at": "2026-04-29T18:14:42+00:00",
+      "title": "Keel Infrastructure Posts $145 Million Loss as Firm Completes Pivot From Bitcoin Miner to AI",
+      "url": "https://decrypt.co/367447/keel-infrastructure-posts-145-million-loss-pivot-bitcoin-miner-ai",
+      "summary": "Formerly known as Bitfarms, the newly rebranded Keel touted a $533 million war chest to fund AI infrastructure buildout.",
+      "published_at": "2026-05-11T17:25:41+00:00",
+      "score": 5,
+      "matched_terms": [
+        "Bitcoin",
+        "miner"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Bitcoin"
+          ],
+          "themes": [
+            "miner"
+          ],
+          "context": []
+        },
+        "summary": {
+          "aliases": [],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Bitcoin",
+            "points": 3
+          },
+          {
+            "signal": "title_theme",
+            "term": "miner",
+            "points": 2
+          }
+        ]
+      }
+    },
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Strategy Resumes Bitcoin Buys as Saylor Shifts Focus to 'Never Be a Net Seller'",
+      "url": "https://decrypt.co/367391/strategy-resumes-bitcoin-buys-as-saylor-shifts-focus-to-never-be-a-net-seller",
+      "summary": "The treasury firm resumed Bitcoin buys after last week's pause, with Michael Saylor saying that Strategy would buy 30 BTC for every one sold.",
+      "published_at": "2026-05-11T13:05:35+00:00",
+      "score": 11,
+      "matched_terms": [
+        "BTC",
+        "Bitcoin",
+        "Saylor"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [
+            "Bitcoin"
+          ],
+          "themes": [],
+          "context": [
+            "Saylor"
+          ]
+        },
+        "summary": {
+          "aliases": [
+            "Bitcoin",
+            "BTC"
+          ],
+          "themes": [],
+          "context": [
+            "Saylor"
+          ]
+        }
+      },
+      "why_matched": {
+        "verdict": "kept",
+        "is_primary_subject": true,
+        "cross_market_coin_count": 1,
+        "signals": [
+          {
+            "signal": "title_alias",
+            "term": "Bitcoin",
+            "points": 3
+          },
+          {
+            "signal": "summary_alias",
+            "term": "Bitcoin",
+            "points": 1
+          },
+          {
+            "signal": "summary_alias",
+            "term": "BTC",
+            "points": 1
+          },
+          {
+            "signal": "title_context",
+            "term": "Saylor",
+            "points": 4
+          },
+          {
+            "signal": "summary_context",
+            "term": "Saylor",
+            "points": 2
+          }
+        ]
+      }
+    },
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Crypto Firms Race to 'Quantum-Proof' Wallets Before Bitcoin, Ethereum Networks Catch Up",
+      "url": "https://decrypt.co/367321/crypto-firms-race-quantum-proof-wallets-bitcoin-ethereum",
+      "summary": "Crypto companies are upgrading wallets to counter the coming quantum computing threat, but gaps remain.",
+      "published_at": "2026-05-10T16:49:28+00:00",
       "score": 3,
       "matched_terms": [
         "Bitcoin"
@@ -123,463 +236,10 @@
     {
       "source": "decrypt",
       "source_name": "Decrypt",
-      "title": "Canadian Government Pushes for Sweeping Ban on Bitcoin, Crypto ATMs",
-      "url": "https://decrypt.co/365983/canadian-government-pushes-sweeping-ban-bitcoin-crypto-atms",
-      "summary": "The country hosts nearly 4,000 crypto ATMs, second only to the U.S.",
-      "published_at": "2026-04-29T16:20:39+00:00",
-      "score": 3,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          }
-        ]
-      }
-    },
-    {
-      "source": "coindesk",
-      "source_name": "CoinDesk",
-      "title": "Bitcoin's widely tracked Coinbase Premium turns negative as realized losses spike to $6 billion",
-      "url": "https://www.coindesk.com/markets/2026/04/29/bitcoin-s-widely-tracked-coinbase-premium-turns-negative-as-realized-losses-spike-to-usd6-billion",
-      "summary": "",
-      "published_at": "2026-04-29T16:13:55+00:00",
-      "score": 3,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          }
-        ]
-      }
-    },
-    {
-      "source": "coindesk",
-      "source_name": "CoinDesk",
-      "title": "The AI-crypto disconnect: Why Pantera’s CEO thinks institutions are missing the boat on bitcoin",
-      "url": "https://www.coindesk.com/markets/2026/04/29/ai-stocks-are-overheated-and-crypto-is-incredibly-cheap-pantera-ceo-dan-morehead-says",
-      "summary": "",
-      "published_at": "2026-04-29T15:25:39+00:00",
-      "score": 3,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          }
-        ]
-      }
-    },
-    {
-      "source": "coindesk",
-      "source_name": "CoinDesk",
-      "title": "Bitcoin ETFs fuel institutional surge, 21Shares' CIO sees $100K possible by year-end",
-      "url": "https://www.coindesk.com/coindesk-news/2026/04/29/bitcoin-etfs-fuel-institutional-surge-21shares-cio-sees-usd100k-possible-by-year-end",
-      "summary": "",
-      "published_at": "2026-04-29T15:03:03+00:00",
-      "score": 3,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          }
-        ]
-      }
-    },
-    {
-      "source": "decrypt",
-      "source_name": "Decrypt",
-      "title": "Bitcoin's Upside Capped by $82K Sell Wall as UAE’s OPEC Exit Triggers Risk Sell-Off",
-      "url": "https://decrypt.co/365942/bitcoins-upside-capped-by-82k-sell-wall-as-uaes-opec-exit-triggers-risk-sell-off",
-      "summary": "Multiple $3.3 million sell walls sit between $80,400 and $82,000 as oil volatility and rising real rates keep Bitcoin trapped.",
-      "published_at": "2026-04-29T13:44:51+00:00",
-      "score": 4,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          },
-          {
-            "signal": "summary_alias",
-            "term": "Bitcoin",
-            "points": 1
-          }
-        ]
-      }
-    },
-    {
-      "source": "theblock",
-      "source_name": "The Block",
-      "title": "Paul Tudor Jones says bitcoin is ‘unequivocally the best inflation hedge’",
-      "url": "https://www.theblock.co/post/399374/paul-tudor-jones-bitcoin-inflation-hedge?utm_source=rss&utm_medium=rss",
-      "summary": "<p>However, the hedge fund manager did acknowledge concerns surrounding potential cyber warfare and quantum computing risks.</p>",
-      "published_at": "2026-04-29T13:36:01+00:00",
-      "score": 3,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          }
-        ]
-      }
-    },
-    {
-      "source": "theblock",
-      "source_name": "The Block",
-      "title": "Bitcoin holds above $77,000 as ETF outflows extend ahead of what may be Powell’s final FOMC meeting",
-      "url": "https://www.theblock.co/post/399369/bitcoin-holds-above-77000-as-etf-outflows-extend-ahead-of-what-may-be-powells-final-fomc-meeting?utm_source=rss&utm_medium=rss",
-      "summary": "<p>Analysts say bitcoin traders are watching whether the Fed reinforces a higher-for-longer stance after two straight days of ETF outflows.</p>",
-      "published_at": "2026-04-29T13:22:14+00:00",
-      "score": 4,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          },
-          {
-            "signal": "summary_alias",
-            "term": "Bitcoin",
-            "points": 1
-          }
-        ]
-      }
-    },
-    {
-      "source": "decrypt",
-      "source_name": "Decrypt",
-      "title": "Morning Minute: Paul Tudor Jones Calls Bitcoin Strongest Inflation Hedge",
-      "url": "https://decrypt.co/365934/morning-minute-paul-tudor-jones-calls-bitcoin-strongest-inflation-hedge",
-      "summary": "Crypto majors rebound ahead of FOMC, despite oil surging, while Polymarket is making a push to enter the U.S.",
-      "published_at": "2026-04-29T11:55:03+00:00",
-      "score": 3,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          }
-        ]
-      }
-    },
-    {
-      "source": "decrypt",
-      "source_name": "Decrypt",
-      "title": "Woman Gets 71 Months in Prison Over Bitcoin Investment Fraud Targeting Elderly Victims",
-      "url": "https://decrypt.co/365894/woman-71-months-prison-bitcoin-investment-fraud-targeting-elderly-victims",
-      "summary": "Federal prosecutors secured a prison term for a Saipan woman who defrauded elderly victims through a fake Bitcoin investment scheme",
-      "published_at": "2026-04-28T22:01:02+00:00",
-      "score": 4,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          },
-          {
-            "signal": "summary_alias",
-            "term": "Bitcoin",
-            "points": 1
-          }
-        ]
-      }
-    },
-    {
-      "source": "decrypt",
-      "source_name": "Decrypt",
-      "title": "IREN Price Target Cut as Bernstein Sees Firm Dumping Bitcoin Mining for AI",
-      "url": "https://decrypt.co/365852/iren-price-target-cut-as-bernstein-sees-firm-dumping-bitcoin-mining-for-ai",
-      "summary": "Bernstein analysts see IREN’s AI cloud prospects growing substantially in the coming years—and its Bitcoin business disappearing entirely.",
-      "published_at": "2026-04-28T18:09:08+00:00",
-      "score": 4,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          },
-          {
-            "signal": "summary_alias",
-            "term": "Bitcoin",
-            "points": 1
-          }
-        ]
-      }
-    },
-    {
-      "source": "decrypt",
-      "source_name": "Decrypt",
-      "title": "Stablecoin Giant Tether Reveals Plans for Modular Bitcoin Mining Hardware",
-      "url": "https://decrypt.co/365840/stablecoin-giant-tether-modular-bitcoin-mining-hardware",
-      "summary": "Leading stablecoin issuer Tether has teamed with Canaan and ACME Swisstech to develop customizable, upgradable Bitcoin mining rigs.",
-      "published_at": "2026-04-28T16:50:38+00:00",
-      "score": 4,
-      "matched_terms": [
-        "Bitcoin"
-      ],
-      "matched_in": {
-        "title": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        },
-        "summary": {
-          "aliases": [
-            "Bitcoin"
-          ],
-          "themes": [],
-          "context": []
-        }
-      },
-      "why_matched": {
-        "verdict": "kept",
-        "is_primary_subject": true,
-        "cross_market_coin_count": 1,
-        "signals": [
-          {
-            "signal": "title_alias",
-            "term": "Bitcoin",
-            "points": 3
-          },
-          {
-            "signal": "summary_alias",
-            "term": "Bitcoin",
-            "points": 1
-          }
-        ]
-      }
-    },
-    {
-      "source": "decrypt",
-      "source_name": "Decrypt",
-      "title": "White House Crypto Adviser Hints at ‘Breakthrough’ Bitcoin Reserve Move",
-      "url": "https://decrypt.co/365801/white-house-crypto-adviser-hints-at-breakthrough-bitcoin-reserve-move",
-      "summary": "A \"big announcement\" on the U.S. Bitcoin strategic reserve could drop soon, but Treasury and a stalled Senate bill continue to set limits.",
-      "published_at": "2026-04-28T13:30:24+00:00",
+      "title": "Australian Police Seize Millions in Bitcoin From Alleged Darknet Marketplace Operator",
+      "url": "https://decrypt.co/367363/australian-police-seize-millions-bitcoin-darknet-marketplace-operator",
+      "summary": "Two men face money laundering and drug charges following the seizure of $4.2 million in Bitcoin from alleged darknet marketplace dealings.",
+      "published_at": "2026-05-09T17:24:07+00:00",
       "score": 4,
       "matched_terms": [
         "Bitcoin"
@@ -619,5 +279,44 @@
       }
     }
   ],
-  "rejected_items": []
+  "rejected_items": [
+    {
+      "source": "decrypt",
+      "source_name": "Decrypt",
+      "title": "Crypto Funds Add $858M as Clarity Act Drives Market Optimism",
+      "url": "https://decrypt.co/367382/crypto-funds-add-858m-as-clarity-act-drives-market-optimism",
+      "summary": "Digital asset inflows peak at a six-week high as a Senate stablecoin deal stokes institutional appetite across Bitcoin and altcoins.",
+      "published_at": "2026-05-11T11:31:38+00:00",
+      "score": 1,
+      "matched_terms": [
+        "Bitcoin"
+      ],
+      "matched_in": {
+        "title": {
+          "aliases": [],
+          "themes": [],
+          "context": []
+        },
+        "summary": {
+          "aliases": [
+            "Bitcoin"
+          ],
+          "themes": [],
+          "context": []
+        }
+      },
+      "why_matched": {
+        "verdict": "rejected",
+        "is_primary_subject": false,
+        "cross_market_coin_count": 0,
+        "signals": [
+          {
+            "signal": "summary_alias",
+            "term": "Bitcoin",
+            "points": 1
+          }
+        ]
+      }
+    }
+  ]
 }

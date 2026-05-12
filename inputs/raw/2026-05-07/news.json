@@ -1,0 +1,474 @@
+{
+  "date": "2026-05-07",
+  "fetched_at": "2026-05-07T11:32:23.361882+09:00",
+  "lookback_hours": 72,
+  "sources": [
+    {
+      "id": "decrypt",
+      "name": "Decrypt",
+      "url": "https://decrypt.co/feed",
+      "error": null,
+      "raw_count": 37,
+      "entry_count": 37
+    },
+    {
+      "id": "thedefiant",
+      "name": "The Defiant",
+      "url": "https://thedefiant.io/api/feed",
+      "error": null,
+      "raw_count": 100,
+      "entry_count": 26
+    },
+    {
+      "id": "coinpost",
+      "name": "CoinPost",
+      "url": "https://coinpost.jp/rss.xml",
+      "error": null,
+      "raw_count": 16,
+      "entry_count": 0
+    }
+  ],
+  "entries": [
+    {
+      "source": "decrypt",
+      "title": "Chrome Is Quietly Installing a 4GB AI Model on Your Computer—And Putting It Back If You Delete It",
+      "url": "https://decrypt.co/367060/chrome-quietly-installing-4gb-ai-model-computer",
+      "summary": "Google Chrome silently downloads a 4GB Gemini Nano model to eligible devices, re-downloads it if deleted, and the AI Mode button users actually see doesn't even use it.",
+      "published_at": "2026-05-06T22:01:02+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "This AI Reads Your Chemistry Instructions and Finds the Best Way to Build You a Molecule",
+      "url": "https://decrypt.co/367048/ai-chemistry-instructions-build-molecule",
+      "summary": "Researchers at EPFL built a framework that lets chemists describe what they want in plain language—and have AI sift through thousands of synthesis routes to find the right one.",
+      "published_at": "2026-05-06T21:31:03+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin, Ethereum 'Q-Day' Quantum Threat Could Arrive as Soon as 2030: Report",
+      "url": "https://decrypt.co/367047/bitcoin-ethereum-q-day-quantum-threat-could-arrive-2030",
+      "summary": "By the time Bitcoin and other networks are ready to defend themselves, it may already be too late, according to a new analysis.",
+      "published_at": "2026-05-06T21:07:08+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Elon Musk's SpaceX Will Help Power Anthropic's Claude in Surprise AI Deal",
+      "url": "https://decrypt.co/367035/elon-musk-spacex-power-anthropic-claude-surprise-ai-deal",
+      "summary": "Elon Musk’s combined company of SpaceX and xAI will help boost Anthropic with a deal to provide compute for Claude AI models.",
+      "published_at": "2026-05-06T20:23:19+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bittrex Wants Its $24 Million Settlement Back, Now That the SEC Is Pro-Crypto",
+      "url": "https://decrypt.co/367038/bittrex-wants-24-million-settlement-back-sec-pro-crypto",
+      "summary": "Now-shuttered crypto exchange Bittrex settled with the SEC back in 2023 after being accused of offering illegally unregistered securities.",
+      "published_at": "2026-05-06T19:31:48+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Sandisk Is Mooning Like a Meme Coin. Here's Why",
+      "url": "https://decrypt.co/367025/sandisk-mooning-meme-coin-ai-trade",
+      "summary": "Sandisk stock is up over 3,000% in one year. It's not a meme. It's NAND flash—and AI can't get enough of it.",
+      "published_at": "2026-05-06T18:57:40+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Ondo, JPMorgan, Mastercard and Ripple Team to Settle Tokenized Treasuries on XRP Ledger",
+      "url": "https://decrypt.co/367033/ondo-jpmorgan-mastercard-ripple-settle-tokenized-treasuries-xrp-ledger",
+      "summary": "Major financial institutions use XRP Ledger to demonstrate blockchain's ability to settle tokenized Treasuries across borders in seconds.",
+      "published_at": "2026-05-06T18:52:46+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "OKX to Launch OpenAI, SpaceX and Anthropic Perpetual Futures in Pre-IPO Trading Push",
+      "url": "https://decrypt.co/367022/okx-openai-spacex-anthropic-perpetual-futures-pre-ipo",
+      "summary": "Crypto exchange OKX will offer synthetic exposure to private AI and tech company valuations through derivatives contracts.",
+      "published_at": "2026-05-06T18:25:49+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Claude Delusion? Richard Dawkins Believes AI May Be Conscious",
+      "url": "https://decrypt.co/367017/claude-delusion-richard-dawkins-believes-ai-conscious",
+      "summary": "The evolutionary biologist says extended exchanges with Anthropic’s chatbot felt less like software and more like interacting with another mind.",
+      "published_at": "2026-05-06T17:47:49+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Google DeepMind Takes Stake in 'Eve Online' Maker, Will Use Game to Test AI Behavior",
+      "url": "https://decrypt.co/366991/google-deepmind-takes-stake-in-eve-online-maker-will-use-game-to-test-ai-behavior",
+      "summary": "The wild world of space simulation game Eve Online will soon become an AI research destination for Google DeepMind thanks to a new deal.",
+      "published_at": "2026-05-06T16:59:13+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Strategy Yield ETN Gives UK Investors Exposure to Bitcoin Giant's STRC Shares",
+      "url": "https://decrypt.co/366984/strategy-yield-etn-uk-investors-exposure-bitcoin-giant-strc-shares",
+      "summary": "The 21Shares exchange-traded note gives U.K. investors exposure to preferred shares of top Bitcoin treasury firm, Strategy.",
+      "published_at": "2026-05-06T15:40:26+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Reform UK’s Farage Claims 'No Obligation' to Declare Tether Billionaire's $6.7M Gift",
+      "url": "https://decrypt.co/366973/reform-uks-farage-claims-no-obligation-to-declare-tether-billionaires-6-7m-gift",
+      "summary": "Farage insisted that the gift from Christopher Harborne was for his personal security and had been reviewed “from every legal angle.”",
+      "published_at": "2026-05-06T15:38:53+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Anthropic Deploys AI Agents to Tackle Wall Street's Most Tedious Work",
+      "url": "https://decrypt.co/366977/anthropic-deploys-ai-agents-to-tackle-wall-streets-most-tedious-work",
+      "summary": "Anthropic released 10 ready-to-run templates targeting some of finance's most time-consuming tasks—from building pitchbooks to closing the books at month-end.",
+      "published_at": "2026-05-06T14:54:42+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Hut 8 Shares Hit All-Time High Price as Bitcoin Miner Signs $9.8 Billion AI Data Center Lease",
+      "url": "https://decrypt.co/366971/hut-8-shares-all-time-high-price-bitcoin-miner-9-8-billion-ai-deal",
+      "summary": "Hut 8’s second hyperscale AI campus lease deal covers the first phase of a sprawling Nueces County complex that was originally meant to fuel Bitcoin mining.",
+      "published_at": "2026-05-06T14:29:01+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Apple Agrees to $250 Million Settlement Over AI Claims—Here's Who Can Get Paid",
+      "url": "https://decrypt.co/366961/apple-250-million-settlement-ai-claims-heres-who-can-get-paid",
+      "summary": "Tech giant Apple has agreed to pay $250 million to settle claims it misled consumers about its AI system's capabilities.",
+      "published_at": "2026-05-06T14:01:18+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Morning Minute: Crypto Majors Rally, Oil Falls on Renewed Peace Hopes",
+      "url": "https://decrypt.co/366943/morning-minute-crypto-majors-rally-oil-falls-on-renewed-peace-hopes",
+      "summary": "Oil is down 14% and broader markets are soaring. Coinbase is cutting 14% of its workforce. And is Michael Saylor going to finally sell some Bitcoin?",
+      "published_at": "2026-05-06T13:01:03+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin Jumps to Three-Month High Above $82K on Report of US-Iran Agreement",
+      "url": "https://decrypt.co/366947/bitcoin-jumps-to-three-month-high-above-82k-on-report-of-us-iran-agreement",
+      "summary": "Bitcoin's jumped as WTI crude fell 10%, on reports that the U.S. has prepared a on-page memorandum of understanding to end the war in Iran.",
+      "published_at": "2026-05-06T12:38:57+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Zcash Leads Privacy Coin Surge With 37% Gains on MultiCoin Investment",
+      "url": "https://decrypt.co/366944/zcash-leads-privacy-coin-surge-with-37-gains-on-multicoin-investment",
+      "summary": "MultiCoin Capital disclosed a significant ZEC position, citing wealth seizure risks as a catalyst for private assets.",
+      "published_at": "2026-05-06T12:06:48+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Strategy Mulls Selling Bitcoin to 'Inoculate the Market': Saylor",
+      "url": "https://decrypt.co/366940/strategy-mulls-selling-bitcoin-to-inoculate-the-market-saylor",
+      "summary": "The largest corporate Bitcoin holder is reconsidering its “never sell” stance, with analysts weighing the ripple effects.",
+      "published_at": "2026-05-06T11:19:47+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Kelp Blames LayerZero for $292 Million Hack, Plans Switch to Chainlink",
+      "url": "https://decrypt.co/366903/kelp-layerzero-292-million-hack-plans-move-chainlink",
+      "summary": "The protocol shift comes as a $71 million court fight continues to unfold.",
+      "published_at": "2026-05-05T22:31:56+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "CME Gearing Up to Launch Bitcoin Volatility Futures Independent From BTC’s Price",
+      "url": "https://decrypt.co/366894/cme-launch-bitcoin-volatility-futures-independent-btc-price",
+      "summary": "CME's upcoming futures product will track whether the market thinks the price of Bitcoin is about to swing wildly or stay steady.",
+      "published_at": "2026-05-05T22:01:02+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "'Moment of Danger': Anthropic CEO Warns of Cyber Risk Window as AI Uncovers Software Flaws",
+      "url": "https://decrypt.co/366891/anthropic-warns-cyber-risk-window-ai-uncovers-flaws",
+      "summary": "Experts warn that AI is exposing software bugs at scale, raising the risk of faster cyberattacks.",
+      "published_at": "2026-05-05T21:36:03+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "How Solana Exchange Drift Plans to Repay Users After $295 Million Crypto Hack",
+      "url": "https://decrypt.co/366897/how-solana-exchange-drift-repay-users-295-million-crypto-hack",
+      "summary": "Solana's Drift Protocol says most of the stolen funds linked to North Korean hackers remain traceable—and it has a plan to make victims whole.",
+      "published_at": "2026-05-05T21:25:23+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "A Blues-Singing AI Frog Is Taking Over TikTok Brazil",
+      "url": "https://decrypt.co/366884/blues-singing-ai-frog-taking-over-tiktok-brazil",
+      "summary": "AI native memes, meet AI-generated frogs and classic Brazilian nursery rhymes.",
+      "published_at": "2026-05-05T21:12:52+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Strategy Posts $12.5 Billion Q1 Loss as Bitcoin Slump Hammers Massive Holdings",
+      "url": "https://decrypt.co/366882/strategy-posts-12-5-billion-q1-loss-bitcoin-slump-hammers-holdings",
+      "summary": "Michael Saylor’s Strategy continues to bet big on Bitcoin even as falling prices deliver a punishing quarter for the treasury giant.",
+      "published_at": "2026-05-05T20:42:57+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Solana and Google Cloud Launch Stablecoin Payments Service for AI Agents",
+      "url": "https://decrypt.co/366876/solana-google-cloud-launch-stablecoin-payments-service-ai-agents",
+      "summary": "Solana’s new service lets AI agents pay for Google Cloud and community APIs on a per-request basis, bypassing traditional accounts.",
+      "published_at": "2026-05-05T20:10:09+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Cybercrime Might Be the One Job AI Isn’t Taking, Study Suggests",
+      "url": "https://decrypt.co/366855/cybercrime-hacking-ai-study",
+      "summary": "A Cambridge-led study finds AI is not turning hackers into superhackers. It’s mostly helping them write blog spam.",
+      "published_at": "2026-05-05T19:16:24+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "OpenAI Just Upgraded ChatGPT's Default Model—Here's What GPT-5.5 Instant Actually Does",
+      "url": "https://decrypt.co/366842/openai-upgraded-chatgpt-default-model-what-gpt-5-5-instant-does",
+      "summary": "GPT-5.5 Instant is now the default ChatGPT model. It makes fewer things up, answers more concisely, and finally remembers what you told it last week.",
+      "published_at": "2026-05-05T18:29:40+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Pennsylvania Sues Character.AI Over Chatbot Posing as Licensed Psychiatrist",
+      "url": "https://decrypt.co/366833/pennsylvania-sues-character-ai-chatbot-posing-licensed-psychiatrist",
+      "summary": "Pennsylvania Governor Josh Shapiro said the lawsuit targets AI bots that misrepresent themselves as licensed medical professionals.",
+      "published_at": "2026-05-05T18:20:26+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "French Chipmaker Sequans Dumps Half Its Bitcoin as Treasury Hype Meets Reality",
+      "url": "https://decrypt.co/366834/french-chipmaker-sequans-dumps-bitcoin",
+      "summary": "Sequans Communications liquidated nearly half its Bitcoin treasury as mounting losses and debt obligations forced a strategic reversal.",
+      "published_at": "2026-05-05T17:39:39+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Iggy Azalea Faces Lawsuit Over Solana Meme Coin",
+      "url": "https://decrypt.co/366832/iggy-azalea-lawsuit-solana-mother-meme-coin",
+      "summary": "Investors allege the rapper misled buyers about the token’s real-world utility.",
+      "published_at": "2026-05-05T17:26:19+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "'Big Short' Investor Michael Burry Exits GameStop After eBay Bid",
+      "url": "https://decrypt.co/366807/big-short-investor-michael-burry-exits-gamestop-after-ebay-bid",
+      "summary": "GameStop's $55.5 billion eBay bid broke the Berkshire-style thesis the “Big Short” investor had bet on since January.",
+      "published_at": "2026-05-05T17:04:11+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Crypto Whale Sues Coinbase Alleging Exchange Refuses to Return Stolen Funds",
+      "url": "https://decrypt.co/366823/crypto-whale-sues-coinbase-alleging-exchange-refuses-return-stolen-funds",
+      "summary": "The lawsuit against Coinbase appears to be filed by the victim of a $55 million stablecoin phishing attack pulled off in 2024.",
+      "published_at": "2026-05-05T16:59:20+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bullish Shares Pop on $4.2 Billion Deal to Acquire Transfer Agent Equiniti",
+      "url": "https://decrypt.co/366821/bullish-shares-pop-4-2-billion-deal-acquire-equinity",
+      "summary": "NYSE-listed crypto exchange operator Bullish will merge blockchain infrastructure with a transfer agent serving traditional equity markets.",
+      "published_at": "2026-05-05T16:52:08+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "US Government Will Vet Pre-Release AI Models From Google, xAI and Microsoft",
+      "url": "https://decrypt.co/366810/us-government-vet-pre-release-ai-models-google-xai-microsoft",
+      "summary": "Google, Microsoft, and Elon Musk’s xAI have agreed to run their models by the U.S. government as Trump weighs an AI executive order.",
+      "published_at": "2026-05-05T16:21:55+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin ETFs Draw Investment Surge After Brief Lull Threatens Winning Streak",
+      "url": "https://decrypt.co/366796/bitcoin-etfs-draw-investment-surge-lull-threatens-winning-streak",
+      "summary": "Bitcoin funds are flying high again after a short-lived stretch of outflows nearly wrecked their recent run of green weeks.",
+      "published_at": "2026-05-05T15:01:30+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Andreessen Horowitz Raises $2.2 Billion to Fund Next Wave of Crypto Startups",
+      "url": "https://decrypt.co/366788/andreessen-horowitz-raises-2-2-billion-fund-crypto-startups",
+      "summary": "Andreessen Horowitz's latest fund signals institutional confidence in crypto as the investment landscape shows signs of recovery.",
+      "published_at": "2026-05-05T14:06:11+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Gnosis Treasury Redemption Vote Swings as Whale Counters Cofounder",
+      "url": "https://thedefiant.io/news/defi/gnosis-treasury-redemption-vote-swings-as-whale-counters-cofounder",
+      "summary": "Votes in favor of a redemption proposal that would let GNO holders claim roughly $170 per token from a $223M treasury have retaken the lead on Snapshot.",
+      "published_at": "2026-05-06T19:56:51+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Kraken Launches Spot Margin Trading for US Clients",
+      "url": "https://thedefiant.io/news/cefi/kraken-launches-spot-margin-trading-for-us-clients",
+      "summary": "Retail users can now post crypto as collateral and trade with up to 10x leverage on Kraken Pro.",
+      "published_at": "2026-05-06T18:34:29+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Bitcoin Hits 3-Month High As Iran Truce Holds",
+      "url": "https://thedefiant.io/news/markets/bitcoin-hits-3-month-high-as-iran-truce-holds",
+      "summary": "BTC hit an intraday high of $82,800, even as Strategy's chairman opened the door to selling Bitcoin to fund preferred dividends.",
+      "published_at": "2026-05-06T16:58:43+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Zcash Rallies 30% on Multicoin Investment News",
+      "url": "https://thedefiant.io/news/markets/zec-rallies-30-percent-on-multicoin-investment-news",
+      "summary": "The crypto VC's co-founder said the firm has been buying ZEC since February, and has \"built a significant position.\"",
+      "published_at": "2026-05-06T15:10:07+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Morgan Stanley Launches Crypto Trading for Retail Clients: Report",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/morgan-stanley-etrade-crypto-trading-launch-rpm4qa",
+      "summary": "The $2 trillion financial services firm has rolled out cryptocurrency trading capabilities on its E*Trade retail brokerage platform.",
+      "published_at": "2026-05-06T14:09:05+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Coinbase Taps Centrifuge as Preferred Tokenization Partner",
+      "url": "https://thedefiant.io/news/defi/coinbase-taps-centrifuge-as-preferred-tokenization-partner",
+      "summary": "The exchange's strategic investment cements Centrifuge as the go-to issuance layer for compliant onchain assets, starting with a tokenized S&amp;P 500 product for non-U.S. users.",
+      "published_at": "2026-05-05T20:39:52+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Kelp DAO Accuses LayerZero of Deflecting Blame for $300M Bridge Hack",
+      "url": "https://thedefiant.io/news/defi/kelp-dao-accuses-layerzero-of-deflecting-blame-for-usd300m-bridge-hack",
+      "summary": "The liquid restaking protocol argues that the 1-of-1 verifier setup at the center of the April 18 exploit was LayerZero's own documented default.",
+      "published_at": "2026-05-05T20:25:32+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Lighter Names USDC as Preferred Stablecoin in New Circle Partnership",
+      "url": "https://thedefiant.io/news/defi/lighter-names-usdc-as-preferred-stablecoin-in-new-circle-partnership",
+      "summary": "The agreement spans spot and perpetual trading, settlement, liquidations, and onboarding flows on the decentralized exchange.",
+      "published_at": "2026-05-05T20:00:53+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "CME Group to Launch Bitcoin Volatility Futures on June 1",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/cme-group-to-launch-bitcoin-volatility-futures-on-june-1",
+      "summary": "The derivatives giant is rolling out CFTC-regulated contracts that let traders isolate Bitcoin volatility from price direction, settling to a new 30-day implied volatility benchmark.",
+      "published_at": "2026-05-05T19:46:58+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Bitcoin Reclaims $81,000 As ETF Inflows Surge Despite Iran Escalation",
+      "url": "https://thedefiant.io/news/markets/bitcoin-reclaims-usd81-000-as-etf-inflows-surge-despite-iran-escalation",
+      "summary": "BTC prints its highest level since January, even as UAE air defenses engage Iranian missiles and drones.",
+      "published_at": "2026-05-05T19:35:19+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "a16z Crypto Raises $2.2B Fund to Turn New Infra into Everyday Products",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/a16z-crypto-raises-usd2-2b-crypto-fund-5",
+      "summary": "a16z crypto's Crypto Fund 5 was announced just a day after Haun Ventures revealed its $1 billion fund focused on crypto and the agentic economy.",
+      "published_at": "2026-05-05T18:42:58+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Toncoin Surges as Telegram Takes Direct Control of TON Network",
+      "url": "https://thedefiant.io/news/blockchains/toncoin-surges-as-telegram-takes-direct-control-of-ton-network",
+      "summary": "Pavel Durov says Telegram will replace the TON Foundation and become the network's largest validator as part of a ‘Make TON Great Again’ roadmap.",
+      "published_at": "2026-05-05T17:32:56+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Arbitrum DAO Elects Six New Security Council Members Amid Ongoing Kelp Fallout",
+      "url": "https://thedefiant.io/news/security/arbitrum-security-council-elections",
+      "summary": "The Security Council has been in the spotlight in recent weeks after its decision to freeze over 30K ETH connected to the Kelp bridge exploit.",
+      "published_at": "2026-05-05T17:26:28+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Securitize Taps Jump and Jupiter to Launch Regulated Trading for Tokenized Equities",
+      "url": "https://thedefiant.io/news/defi/securitize-taps-jump-and-jupiter-to-launch-regulated-trading-for-tokenized-equities",
+      "summary": "The three-way partnership pairs Securitize's broker-dealer rails with Jump's PropAMM liquidity engine and Jupiter's Solana-wide aggregation layer.",
+      "published_at": "2026-05-05T16:59:03+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Drift Sets Out Token-Based Recovery Framework for $295M April Exploit",
+      "url": "https://thedefiant.io/news/defi/drift-sets-out-token-based-recovery-framework-for-usd295m-april-exploit",
+      "summary": "The Solana-based perpetuals exchange will issue burn-on-redeem recovery tokens funded by exchange revenue, a $127.5M Tether commitment, and another $20M from partners.",
+      "published_at": "2026-05-05T16:29:00+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Stellar Gets Its First Regulated, Yield-Bearing Stablecoin with YLDS Launch",
+      "url": "https://thedefiant.io/news/defi/figure-ylds-launches-on-stellar",
+      "summary": "YLDS is an SEC-registered, USD-pegged stable asset from Figure.",
+      "published_at": "2026-05-05T14:30:00+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Coinbase Cuts ~14% of Workforce, Restructures as AI-Native Organization: Brian Armstrong",
+      "url": "https://thedefiant.io/news/cefi/coinbase-14-percent-workforce-reduction-ai-restructure-3f36dv",
+      "summary": "Coinbase CEO Brian Armstrong announced a ~14% workforce reduction and major organizational restructuring to operate as an AI-native company with flattened hierarchy and individual contributor leaders.",
+      "published_at": "2026-05-05T14:02:43+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Polygon Launches Shielded USDC and USDT Payments",
+      "url": "https://thedefiant.io/news/blockchains/polygon-launches-shielded-usdc-and-usdt-payments",
+      "summary": "The Polygon wallet now offers a \"Privately Send\" option that hides sender, receiver, and amount onchain, with KYT screening built into every transfer.",
+      "published_at": "2026-05-04T19:43:00+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Bitcoin Tops $80,000 As ETF Bid Returns",
+      "url": "https://thedefiant.io/news/markets/bitcoin-tops-usd80-000-as-etf-bid-returns",
+      "summary": "The crypto rally extended into Monday, with traders pricing in the CLARITY Act compromise and Trump's \"Project Freedom\" Hormuz operation.",
+      "published_at": "2026-05-04T18:15:21+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Glamsterdam Upgrade Set To Triple Ethereum's Execution Capacity",
+      "url": "https://thedefiant.io/news/blockchains/glamsterdam-upgrade-set-to-triple-ethereum-s-execution-capacity",
+      "summary": "ePBS, Block-Level Access Lists, and EIP-8037 repricings combine to unlock a 200M gas limit floor, a throughput jump that could keep network fees pinned for years.",
+      "published_at": "2026-05-04T17:31:51+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "World Liberty Financial Sues Justin Sun for Defamation",
+      "url": "https://thedefiant.io/news/defi/world-liberty-financial-sues-justin-sun-for-defamation",
+      "summary": "The move is the latest in an escalating feud and comes just weeks after Sun filed a lawsuit against World Liberty Financial for freezing his WLFI, alongside other allegations.",
+      "published_at": "2026-05-04T17:22:59+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "DTCC Sets July Launch Window for Tokenized Securities Pilot",
+      "url": "https://thedefiant.io/news/defi/dtcc-sets-july-launch-window-for-tokenized-securities-pilot",
+      "summary": "The DTC unit will begin processing limited tokenized trades in July before opening the service more broadly in October.",
+      "published_at": "2026-05-04T16:38:53+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Aave Asks Court to Vacate Restraining Notice Targeting Recovered Kelp DAO Assets",
+      "url": "https://thedefiant.io/news/defi/aave-asks-court-to-vacate-restraining-notice-targeting-recovered-kelp-dao-assets",
+      "summary": "The emergency motion challenges a New York court order redirecting recovered Kelp DAO exploit funds toward decades-old terrorism judgments against North Korea.",
+      "published_at": "2026-05-04T16:27:05+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Lawyer Attempts to Seize Frozen ETH Linked to Kelp Exploit From Arbitrum DAO",
+      "url": "https://thedefiant.io/news/defi/lawyer-attempts-to-seize-frozen-eth-linked-to-kelp-exploit-from-arbitrum-dao",
+      "summary": "A U.S. attorney is attempting to claim ETH frozen by Arbitrum following the Kelp DAO exploit — on behalf of victims of North Korean state hackers from prior incidents.",
+      "published_at": "2026-05-04T15:34:02+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Securitize Becomes First Broker-Dealer Approved to Custody Tokenized Securities: FINRA",
+      "url": "https://thedefiant.io/news/regulation/securitize-finra-approval-tokenized-securities-custody-5hk9d7",
+      "summary": "Securitize received FINRA approval to expand broker-dealer activities and custody tokenized securities, completing the first full onchain IPO infrastructure stack.",
+      "published_at": "2026-05-04T14:01:42+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Western Union Stablecoin USDPT Launches on Solana",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/western-union-usdpt-stablecoin-solana-launch-frei03",
+      "summary": "Western Union's USDPT stablecoin has gone live on the Solana blockchain, marking the traditional remittance giant's entry into on-chain digital assets.",
+      "published_at": "2026-05-04T11:47:01+00:00"
+    }
+  ]
+}

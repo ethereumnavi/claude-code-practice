@@ -1,0 +1,222 @@
+{
+  "date": "2026-05-11",
+  "fetched_at": "2026-05-11T08:24:06.451876+09:00",
+  "lookback_hours": 72,
+  "sources": [
+    {
+      "id": "decrypt",
+      "name": "Decrypt",
+      "url": "https://decrypt.co/feed",
+      "error": null,
+      "raw_count": 38,
+      "entry_count": 21
+    },
+    {
+      "id": "thedefiant",
+      "name": "The Defiant",
+      "url": "https://thedefiant.io/api/feed",
+      "error": null,
+      "raw_count": 100,
+      "entry_count": 6
+    },
+    {
+      "id": "coinpost",
+      "name": "CoinPost",
+      "url": "https://coinpost.jp/rss.xml",
+      "error": null,
+      "raw_count": 16,
+      "entry_count": 0
+    }
+  ],
+  "entries": [
+    {
+      "source": "decrypt",
+      "title": "Crypto Firms Race to 'Quantum-Proof' Wallets Before Bitcoin, Ethereum Networks Catch Up",
+      "url": "https://decrypt.co/367321/crypto-firms-race-quantum-proof-wallets-bitcoin-ethereum",
+      "summary": "Crypto companies are upgrading wallets to counter the coming quantum computing threat, but gaps remain.",
+      "published_at": "2026-05-10T16:49:28+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "AI Models Scheme, Betray and Vote Each Other Out in Survivor-Style Game",
+      "url": "https://decrypt.co/367213/ai-models-scheme-betray-vote-out-survivor-style-game",
+      "summary": "Researchers say multiplayer games may reveal AI behavior that static tests miss.",
+      "published_at": "2026-05-10T13:01:02+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Australian Police Seize Millions in Bitcoin From Alleged Darknet Marketplace Operator",
+      "url": "https://decrypt.co/367363/australian-police-seize-millions-bitcoin-darknet-marketplace-operator",
+      "summary": "Two men face money laundering and drug charges following the seizure of $4.2 million in Bitcoin from alleged darknet marketplace dealings.",
+      "published_at": "2026-05-09T17:24:07+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Olympic Sprinter Can't Outrun Charges in UK Crypto Fraud Investigation",
+      "url": "https://decrypt.co/367353/olympic-sprinter-cant-outrun-charges-uk-crypto-fraud",
+      "summary": "U.K. police charged British sprinter CJ Ujah in an alleged crypto fraud scheme involving wallet seed phrase theft and impersonation calls.",
+      "published_at": "2026-05-09T13:01:03+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Banking Industry Says Clarity Act Stablecoin Proposal Would Enable 'Evasion'",
+      "url": "https://decrypt.co/367351/banking-industry-clarity-act-stablecoin-evasion",
+      "summary": "Senators had hoped the issue, which has plagued crypto legislation for months, had been put to bed with a proposed compromise last week.",
+      "published_at": "2026-05-08T21:47:36+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "TeraWulf's AI Compute Revenue Outpaces Bitcoin Mining Amid $427 Million Loss",
+      "url": "https://decrypt.co/367309/terawulfs-ai-compute-revenue-outpaces-bitcoin-mining-amid-427-million-loss",
+      "summary": "Publicly traded Bitcoin miner and data center operator TeraWulf reported a hefty net loss in Q1 as its AI revenue took over from BTC.",
+      "published_at": "2026-05-08T20:29:14+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Intel Stock Hits All-Time High After Preliminary Chip Deal With Apple",
+      "url": "https://decrypt.co/367320/intel-all-time-high-chip-deal-apple",
+      "summary": "A preliminary Apple-Intel manufacturing agreement—backed by a White House push—sent Intel stock above $130 on Friday.",
+      "published_at": "2026-05-08T20:17:26+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Elizabeth Warren Wants Meta to Spill All on Stablecoin Plans Ahead of Clarity Act Votes",
+      "url": "https://decrypt.co/367314/elizabeth-warren-meta-stablecoin-plans-clarity-act-votes",
+      "summary": "The Senate Democrat said Meta’s reported plans to partner with a third-party stablecoin issuer could undermine “competition, privacy… and financial stability.”",
+      "published_at": "2026-05-08T19:38:44+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Will Strategy Sell Bitcoin This Year? Traders Are Convinced After Saylor Comments",
+      "url": "https://decrypt.co/367298/will-strategy-sell-bitcoin-myriad-traders-convinced-saylor-comments",
+      "summary": "Users of Myriad's prediction market believe it's likely Strategy will part ways with some of its Bitcoin holdings this year.",
+      "published_at": "2026-05-08T19:16:46+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Trump Admin Launches Pentagon UFO Website With Declassified Files",
+      "url": "https://decrypt.co/367300/trump-admin-launches-pentagon-ufo-website-declassified",
+      "summary": "The new website follows years of hearings, investigations, and pressure for greater UAP transparency.",
+      "published_at": "2026-05-08T18:45:45+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Kraken Parent Payward Applies for OCC National Trust Bank Charter",
+      "url": "https://decrypt.co/367299/kraken-parent-payward-applies-occ-national-trust-bank-charter",
+      "summary": "Crypto exchange Kraken is seeking a U.S. federal banking charter to complement its Wyoming SPDI subsidiary.",
+      "published_at": "2026-05-08T18:31:39+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin Miner IREN Secures $3.4 Billion Nvidia AI Deal, With $2.1 Billion Share Option",
+      "url": "https://decrypt.co/367289/bitcoin-miner-iren-secures-3-4-billion-nvidia-ai-deal",
+      "summary": "Nvidia gains rights to invest up to $2.1 billion in IREN as companies race to lock down massive AI compute capacity.",
+      "published_at": "2026-05-08T17:02:38+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "ECB’s Lagarde Pushes Back on Euro Stablecoins, Warns of ‘Structural Weaknesses’",
+      "url": "https://decrypt.co/367265/ecbs-lagarde-pushes-back-on-euro-stablecoins-warns-of-structural-weaknesses",
+      "summary": "The European Central Bank chief says Europe \"knows which port it is sailing to,” and it's not towards a euro stablecoin.",
+      "published_at": "2026-05-08T15:36:19+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Coinbase Outage Disrupts Crypto Trading and Transfers Amid Amazon Service Failure",
+      "url": "https://decrypt.co/367268/coinbase-outage-disrupts-crypto-trading-transfers-amazon-failure",
+      "summary": "Coinbase says Amazon Web Services failures across multiple availability zones caused an extended outage on its platform.",
+      "published_at": "2026-05-08T15:33:46+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "AI Won’t End Human Work, Andreessen Horowitz Partner Says",
+      "url": "https://decrypt.co/367222/ai-wont-end-human-work-andreessen-horowitz-partner",
+      "summary": "a16z partner David George argues AI will reshape work instead of erasing it.",
+      "published_at": "2026-05-08T15:14:15+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bitcoin Price Crashes Near Zero on Revolut, Blamed on Third-Party Service Disruption",
+      "url": "https://decrypt.co/367258/bitcoin-price-crashes-near-zero-revolut-third-party-disruption",
+      "summary": "Bitcoin briefly plummeted to about 2 cents on Revolut due to what the financial platform described as a third-party service disruption.",
+      "published_at": "2026-05-08T14:29:52+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "XRP New Addresses, Active Supply Plunge Amid Shift to ‘Institutional Rails’",
+      "url": "https://decrypt.co/367253/xrp-new-addresses-active-supply-plunge-amid-shift-to-institutional-rails",
+      "summary": "New XRP addresses hit multi-year lows, per Glassnode data, as the network shifts from \"retail speculation\" to institutional usage.",
+      "published_at": "2026-05-08T13:34:29+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Zcash Targeting Post-Quantum Crypto Milestone by 2027",
+      "url": "https://decrypt.co/367250/zcash-targeting-post-quantum-crypto-milestone-by-2027",
+      "summary": "The privacy-focused cryptocurrency plans to launch a quantum-recoverable wallet within a month as it outlines its roadmap.",
+      "published_at": "2026-05-08T13:15:24+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Morning Minute: Coinbase Misses Earnings on Surprise Loss",
+      "url": "https://decrypt.co/367241/morning-minute-coinbase-misses-earnings-on-surprise-loss",
+      "summary": "Coinbase missed earnings, but one of its newest businesses is scaling incredibly fast—and Tom Lee may finally be slowing his Ethereum buying.",
+      "published_at": "2026-05-08T11:52:46+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Arbitrum DAO Votes to Unlock $70 Million for Kelp DAO Exploit Relief",
+      "url": "https://decrypt.co/367238/arbitrum-dao-votes-to-unlock-70-million-for-kelp-dao-exploit-relief",
+      "summary": "Arbitrum DAO voted to release the Kelp exploit funds, but a U.S. Court restraining notice has put the approved transfer in legal jeopardy.",
+      "published_at": "2026-05-08T11:21:37+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "AUSTRAC Launches Supervision Campaigns as Australia's Crypto Regulatory Reforms Kick In",
+      "url": "https://decrypt.co/367236/austrac-launches-supervision-campaigns-as-australias-crypto-regulatory-reforms-kick-in",
+      "summary": "The campaigns target over-the-counter operators and local exchanges as new laws expand oversight to custody and brokerage services.",
+      "published_at": "2026-05-08T10:13:11+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "LayerZero Admits Mistake in 1/1 DVN Setup Tied to $292M Kelp Hack",
+      "url": "https://thedefiant.io/news/security/layerzero-labs-security-incident-multisig-violation-rjuv1s",
+      "summary": "LayerZero Labs acknowledged a Lazarus Group attack on internal RPCs and a multisig signer's unauthorized personal trade, impacting 0.36% of assets on the protocol.",
+      "published_at": "2026-05-09T00:41:52+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "MegaETH Kicks Off MEGA Buybacks",
+      "url": "https://thedefiant.io/news/blockchains/megaeth-kicks-off-mega-buybacks",
+      "summary": "Future repurchases will follow a preset schedule and be routed through on-chain markets.",
+      "published_at": "2026-05-08T20:06:56+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "ONDO Surges 68% in a Week amid US Tokenization Push",
+      "url": "https://thedefiant.io/news/defi/ondo-surges-68-in-a-week-amid-us-tokenization-push",
+      "summary": "A four-firm pilot settling the first cross-border, cross-bank redemption of tokenized U.S. Treasuries on the XRP Ledger extended a rally sparked by Ondo's seat at the DTCC’s tokenization table.",
+      "published_at": "2026-05-08T18:26:16+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Kraken Parent Payward Seeks US Federal Trust Charter",
+      "url": "https://thedefiant.io/news/regulation/kraken-parent-payward-files-with-occ-for-federal-trust-charter",
+      "summary": "Payward says the OCC national trust charter would complement Kraken's banking arm, Kraken Financial.",
+      "published_at": "2026-05-08T17:55:58+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "ECB's Lagarde: Euro Stablecoins Aren't the Answer, Build Public Infrastructure Instead",
+      "url": "https://thedefiant.io/news/regulation/ecb-lagarde-on-euro-stablecoins",
+      "summary": "The President of the European Central Bank spoke against EUR-pegged stablecoins at the inaugural Banco de España LatAm Economic Forum today.",
+      "published_at": "2026-05-08T17:12:33+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Bitcoin Slips Under $80,000 As ETFs Snap Five-Day Inflow Streak",
+      "url": "https://thedefiant.io/news/markets/bitcoin-slips-under-usd80-000-as-etfs-snap-five-day-inflow-streak",
+      "summary": "Tron, Cardano and Solana led weekly gains among the Top 10, while Bitcoin and Ether lagged as US spot ETF demand cooled on Thursday.",
+      "published_at": "2026-05-08T16:29:21+00:00"
+    }
+  ]
+}

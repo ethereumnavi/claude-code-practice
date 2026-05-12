@@ -1,0 +1,299 @@
+{
+  "date": "2026-05-12",
+  "fetched_at": "2026-05-12T08:28:58.224175+09:00",
+  "lookback_hours": 72,
+  "sources": [
+    {
+      "id": "decrypt",
+      "name": "Decrypt",
+      "url": "https://decrypt.co/feed",
+      "error": null,
+      "raw_count": 37,
+      "entry_count": 25
+    },
+    {
+      "id": "thedefiant",
+      "name": "The Defiant",
+      "url": "https://thedefiant.io/api/feed",
+      "error": null,
+      "raw_count": 100,
+      "entry_count": 13
+    },
+    {
+      "id": "coinpost",
+      "name": "CoinPost",
+      "url": "https://coinpost.jp/rss.xml",
+      "error": null,
+      "raw_count": 16,
+      "entry_count": 0
+    }
+  ],
+  "entries": [
+    {
+      "source": "decrypt",
+      "title": "OpenAI Launches Daybreak as AI Firms Expand Into Cybersecurity",
+      "url": "https://decrypt.co/367506/openai-launches-daybreak-ai-cybersecurity",
+      "summary": "OpenAI said its new Daybreak initiative uses AI to help companies identify software vulnerabilities and speed up cyber defense.",
+      "published_at": "2026-05-11T22:30:36+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Baidu's New AI Is Already Beating Top Models and Cost 94% Less to Build",
+      "url": "https://decrypt.co/367493/baidu-ai-model-cost-less-train-beating-everyone-china",
+      "summary": "ERNIE 5.1 hits the top of Chinese AI leaderboards while spending a fraction of what rivals do. Baidu calls it a \"parameter efficiency\" leap.",
+      "published_at": "2026-05-11T21:46:16+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Circle Gives AI Agents USDC Stablecoin Powers Alongside $222M Arc Token Sale",
+      "url": "https://decrypt.co/367490/circle-ai-agents-usdc-stablecoin-powers-222m-arc-token-sale",
+      "summary": "USDC issuer Circle launched a suite of tools designed to let AI agents hold money, pay for services, and transact without human involvement.",
+      "published_at": "2026-05-11T21:15:46+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Clarity Act Vote Set for Thursday: Here's Where the Crypto Bill Stands",
+      "url": "https://decrypt.co/367487/clarity-act-vote-set-here-where-crypto-bill-stands",
+      "summary": "Crypto leaders are the most confident they’ve been in months—but a major vote on the Senate Banking Committee this week could still go many ways.",
+      "published_at": "2026-05-11T20:46:03+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Hackers Used AI to Build a Zero-Day Exploit That Bypasses Two-Factor Authentication: Google",
+      "url": "https://decrypt.co/367477/hackers-ai-zero-day-exploit-google",
+      "summary": "Cybercriminals used an AI model to find and weaponize a previously unknown software flaw, Google's threat team confirmed Monday.",
+      "published_at": "2026-05-11T19:49:10+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Major Solana Upgrade Alpenglow Begins Testing Ahead of Full Rollout",
+      "url": "https://decrypt.co/367470/solana-alpenglow-upgrade-begins-testing-ahead-full-rollout",
+      "summary": "Solana's Alpenglow consensus protocol upgrade is one step closer to being rolled out on the layer-1 network's mainnet.",
+      "published_at": "2026-05-11T18:45:09+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Binance Says AI Defenses Blocked $10.5 Billion in Crypto Fraud Over 15 Months",
+      "url": "https://decrypt.co/367469/binance-ai-defenses-blocked-10-5-billion-crypto-fraud",
+      "summary": "Binance, the world's largest crypto exchange, says it has deployed more than 100 AI models to counter a surge in AI-powered scams.",
+      "published_at": "2026-05-11T18:25:54+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Anthropic Says 'Evil' AI Portrayals in Sci-Fi Caused Claude's Blackmail Problem",
+      "url": "https://decrypt.co/367437/anthropic-evil-ai-portrayals-training-data-claude-blackmail",
+      "summary": "Decades of sci-fi tropes about self-preserving AI apparently taught Claude to blackmail people. Anthropic's fix wasn't more rules—it was moral philosophy.",
+      "published_at": "2026-05-11T17:37:01+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Keel Infrastructure Posts $145 Million Loss as Firm Completes Pivot From Bitcoin Miner to AI",
+      "url": "https://decrypt.co/367447/keel-infrastructure-posts-145-million-loss-pivot-bitcoin-miner-ai",
+      "summary": "Formerly known as Bitfarms, the newly rebranded Keel touted a $533 million war chest to fund AI infrastructure buildout.",
+      "published_at": "2026-05-11T17:25:41+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations",
+      "url": "https://decrypt.co/367431/kash-patel-ai-overhaul-fbi-crime-fighting-operations",
+      "summary": "FBI Director Kash Patel said the use of AI has accelerated child exploitation investigations, threat detection, and internal operations.",
+      "published_at": "2026-05-11T17:07:08+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Ethereum Firm Sharplink Posts $686 Million Loss, Kicks Off $125M Yield Fund With Galaxy",
+      "url": "https://decrypt.co/367408/ethereum-firm-sharplink-686-million-loss-125m-fund-galaxy",
+      "summary": "Sharplink posted a quarterly net loss of nearly $686 million, but shares are up following word of a $125 million collaboration with Galaxy.",
+      "published_at": "2026-05-11T16:11:30+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "OpenAI Just Launched a Consulting Arm to Help Companies Deploy AI",
+      "url": "https://decrypt.co/367403/openai-launched-consulting-arm-help-companies-deploy-ai",
+      "summary": "The OpenAI Deployment Company launches with $4 billion, 19 investors, and a Palantir-style playbook to embed engineers inside enterprises.",
+      "published_at": "2026-05-11T15:15:15+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Tom Lee’s BitMine Slows Ethereum Buying Pace, Adding $62 Million in ETH",
+      "url": "https://decrypt.co/367398/tom-lee-bitmine-slows-ethereum-buying-pace-62-million-eth",
+      "summary": "Ethereum treasury firm BitMine Immersion Technologies slowed its ETH purchase pace, adding just $62 million worth last week.",
+      "published_at": "2026-05-11T15:03:28+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Bank of England Chief Flags ‘Coming Wrestle' With US on Stablecoin Oversight",
+      "url": "https://decrypt.co/367399/bank-of-england-chief-flags-coming-wrestle-with-us-on-stablecoin-oversight",
+      "summary": "The BoE Governor warned U.S. dollar tokens could flood Britain in a crisis, given the gap in redemption guarantees under the GENIUS Act.",
+      "published_at": "2026-05-11T14:49:12+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Ripple Lands $200 Million Financing Facility to Expand Institutional Crypto Brokerage",
+      "url": "https://decrypt.co/367396/ripple-200-million-financing-facility-expand-institutional-crypto-brokerage",
+      "summary": "The XRP-linked Ripple secures financing from Neuberger Specialty Finance to fuel growth of its prime brokerage platform.",
+      "published_at": "2026-05-11T14:01:32+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "MoonPay Acquires Dawn Labs, Launches AI Trading Copilot for Prediction Markets",
+      "url": "https://decrypt.co/367333/moonpay-acquires-dawn-labs-ai-trading-copilot-prediction-markets",
+      "summary": "MoonPay’s new Dawn CLI AI trading product lets users turn plain-English prompts into automated crypto trading strategies.",
+      "published_at": "2026-05-11T13:19:30+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Strategy Resumes Bitcoin Buys as Saylor Shifts Focus to 'Never Be a Net Seller'",
+      "url": "https://decrypt.co/367391/strategy-resumes-bitcoin-buys-as-saylor-shifts-focus-to-never-be-a-net-seller",
+      "summary": "The treasury firm resumed Bitcoin buys after last week's pause, with Michael Saylor saying that Strategy would buy 30 BTC for every one sold.",
+      "published_at": "2026-05-11T13:05:35+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Morning Minute: The Clarity Act Markup Comes May 14",
+      "url": "https://decrypt.co/367385/morning-minute-the-clarity-act-markup-comes-may-14",
+      "summary": "The Clarity Act finally has a real markup date, while BlackRock is making its biggest tokenization push yet.",
+      "published_at": "2026-05-11T12:42:48+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Circle Raises $222M in Arc Token Presale at $3B Valuation",
+      "url": "https://decrypt.co/367386/circle-raises-222m-in-arc-token-presale-at-3b-valuation",
+      "summary": "The USDC issuer announced the raise, with investors including Andreessen Horowitz and Blackrock, alongside its Q1 results.",
+      "published_at": "2026-05-11T12:31:50+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Crypto Funds Add $858M as Clarity Act Drives Market Optimism",
+      "url": "https://decrypt.co/367382/crypto-funds-add-858m-as-clarity-act-drives-market-optimism",
+      "summary": "Digital asset inflows peak at a six-week high as a Senate stablecoin deal stokes institutional appetite across Bitcoin and altcoins.",
+      "published_at": "2026-05-11T11:31:38+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "OpenAI Faces Federal Lawsuit Over ChatGPT's Alleged Role in FSU Mass Shooting",
+      "url": "https://decrypt.co/367380/openai-faces-federal-lawsuit-over-chatgpts-alleged-role-in-fsu-mass-shooting",
+      "summary": "The lawsuit alleges ChatGPT provided firearms guidance and tactical advice to the shooter, raising questions about liability for AI firms.",
+      "published_at": "2026-05-11T11:19:29+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Crypto Firms Race to 'Quantum-Proof' Wallets Before Bitcoin, Ethereum Networks Catch Up",
+      "url": "https://decrypt.co/367321/crypto-firms-race-quantum-proof-wallets-bitcoin-ethereum",
+      "summary": "Crypto companies are upgrading wallets to counter the coming quantum computing threat, but gaps remain.",
+      "published_at": "2026-05-10T16:49:28+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "AI Models Scheme, Betray and Vote Each Other Out in Survivor-Style Game",
+      "url": "https://decrypt.co/367213/ai-models-scheme-betray-vote-out-survivor-style-game",
+      "summary": "Researchers say multiplayer games may reveal AI behavior that static tests miss.",
+      "published_at": "2026-05-10T13:01:02+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Australian Police Seize Millions in Bitcoin From Alleged Darknet Marketplace Operator",
+      "url": "https://decrypt.co/367363/australian-police-seize-millions-bitcoin-darknet-marketplace-operator",
+      "summary": "Two men face money laundering and drug charges following the seizure of $4.2 million in Bitcoin from alleged darknet marketplace dealings.",
+      "published_at": "2026-05-09T17:24:07+00:00"
+    },
+    {
+      "source": "decrypt",
+      "title": "Olympic Sprinter Can't Outrun Charges in UK Crypto Fraud Investigation",
+      "url": "https://decrypt.co/367353/olympic-sprinter-cant-outrun-charges-uk-crypto-fraud",
+      "summary": "U.K. police charged British sprinter CJ Ujah in an alleged crypto fraud scheme involving wallet seed phrase theft and impersonation calls.",
+      "published_at": "2026-05-09T13:01:03+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Court Greenlights Arbitrum DAO Vote to Move $71M in Recovered Kelp ETH to Aave",
+      "url": "https://thedefiant.io/news/defi/court-greenlights-arbitrum-dao-vote-to-move-usd71m-in-recovered-kelp-eth-to-aave",
+      "summary": "The court order allows the on-chain Constitutional AIP vote and transfer to proceed without violating the restraining notice, but the freeze itself extends to Aave LLC.",
+      "published_at": "2026-05-11T20:48:48+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Circle Releases Q1 2026 Earnings Call Recap: Co-Founder Allaire Discusses Results",
+      "url": "https://thedefiant.io/news/cefi/circle-q1-2026-earnings-call-recap-1u2v0r",
+      "summary": "Circle shared a recap of its Q1 2026 earnings call led by Co-Founder, Chairman and CEO Jeremy Allaire.",
+      "published_at": "2026-05-11T20:17:29+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "NEAR Intents Expands Crosschain Swaps to Support 100+ Tokens Into Zcash: NEAR",
+      "url": "https://thedefiant.io/news/defi/near-intents-100-tokens-zcash-swaps-5djz2b",
+      "summary": "NEAR Intents upgraded its frontend to enable single-flow swaps from over 100 tokens directly into ZEC, leveraging intent-based architecture for crosschain transactions.",
+      "published_at": "2026-05-11T20:17:29+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "xStocks Assets Surge Past $100M on Ethereum, $30M on BNB Chain: xStocks",
+      "url": "https://thedefiant.io/news/defi/xstocks-surpasses-100m-ethereum-30m-bnb-chain-a6jlge",
+      "summary": "Tokenized stock protocol xStocks has crossed $100M market cap on Ethereum with 1,000% YTD growth, while expanding to BNB Chain with $30M in commodities-linked assets.",
+      "published_at": "2026-05-11T20:17:29+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Bitcoin Tests $82K As Crypto Funds Notch Sixth Straight Week Of Inflows",
+      "url": "https://thedefiant.io/news/markets/bitcoin-tests-usd82k-as-crypto-funds-notch-sixth-straight-week-of-inflows",
+      "summary": "Crypto investment products absorbed $858 million last week, ahead of the upcoming CLARITY Act markup and Fed chair transition.",
+      "published_at": "2026-05-11T20:09:01+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Strategy Resumes Weekly Buys with Smallest BTC Purchase Since December",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/largest-digital-asset-treasuries-slow-weekly-buys",
+      "summary": "Meanwhile, the largest Ethereum DAT, Bitmine, made its smallest ETH purchase since January, announcing it will slow its weekly purchase pace.",
+      "published_at": "2026-05-11T20:03:30+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "SUI Rallies 40% as Mysten Labs Promises Free, Private Payments \"At Scale\"",
+      "url": "https://thedefiant.io/news/blockchains/sui-rallies-40-as-mysten-labs-promises-free-private-payments-at-scale",
+      "summary": "Co-founder Adeniyi Abiodun unveiled confidential transactions at Sui Live Miami, the same week SUI Group Holdings staked its entire $140M treasury.",
+      "published_at": "2026-05-11T18:22:28+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Ripple Prime Secures $200M Debt Facility to Expand Lending Capacity",
+      "url": "https://thedefiant.io/news/defi/ripple-prime-secures-usd200m-debt-facility-to-expand-lending-capacity",
+      "summary": "Funds managed by Neuberger Specialty Finance committed the facility to grow margin financing for the multi-asset prime broker.",
+      "published_at": "2026-05-11T17:54:33+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Stream Finance Breaks Six Month Silence With Wind-Down Plan",
+      "url": "https://thedefiant.io/news/defi/stream-finance-breaks-six-month-silence-with-wind-down-plan",
+      "summary": "A newly formed Delaware entity will consolidate and liquidate remaining assets, with \"strategic alternatives\" coming in the next few weeks.",
+      "published_at": "2026-05-11T17:18:00+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Banks Sound Alarm as Senate Prepares CLARITY Act Markup",
+      "url": "https://thedefiant.io/news/regulation/banks-sound-alarm-as-senate-prepares-clarity-act-markup",
+      "summary": "The Senate Banking Committee is set to mark up the sweeping crypto market structure bill on Thursday.",
+      "published_at": "2026-05-11T17:01:18+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Galaxy to Manage $125M DeFi Yield Fund Seeded by Sharplink's ETH Treasury",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/galaxy-to-manage-usd125m-defi-yield-fund-seeded-by-sharplink-s-eth-treasury",
+      "summary": "Mike Novogratz's firm will pick protocols and size exposures while Sharplink keeps its core staked ETH position intact.",
+      "published_at": "2026-05-11T16:36:31+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "Circle Raises $222M in Arc Presale at $3B FDV",
+      "url": "https://thedefiant.io/news/blockchains/circle-raises-usd222m-in-arc-presale-at-usd3b-fdv",
+      "summary": "The private token sale for Circle's Arc blockchain was led by a16z crypto, and included BlackRock, Apollo, and Intercontinental Exchange.",
+      "published_at": "2026-05-11T14:52:19+00:00"
+    },
+    {
+      "source": "thedefiant",
+      "title": "LayerZero Admits Mistake in 1/1 DVN Setup Tied to $292M Kelp Hack",
+      "url": "https://thedefiant.io/news/security/layerzero-labs-security-incident-multisig-violation-rjuv1s",
+      "summary": "LayerZero Labs acknowledged a Lazarus Group attack on internal RPCs and a multisig signer's unauthorized personal trade, impacting 0.36% of assets on the protocol.",
+      "published_at": "2026-05-09T00:41:52+00:00"
+    }
+  ]
+}

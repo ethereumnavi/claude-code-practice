@@ -1,10 +1,115 @@
-# News — 2026-04-30
+# News — 2026-05-01
 
-- Fetched at: 2026-04-30T18:30:40.934154+09:00
+- Fetched at: 2026-05-01T09:15:27.547818+09:00
 - Lookback: 72h
-- Total entries: 61
+- Total entries: 62
 
 ## Decrypt (35 entries)
+
+### [Mistral AI Drops New Open-Source Model. The Internet Is Not Impressed, Except for One Thing](https://decrypt.co/366275/mistral-ai-open-source-model-agents-internet-not-impressed)
+_Published: 2026-04-30T21:31:03+00:00_
+
+Mistral Medium 3.5 is the rare Western entry in the open-source top tier, but it costs multiples more than Chinese rivals that beat it on benchmarks.
+
+---
+
+### [Elon Musk Says xAI Used OpenAI Models to Train Grok](https://decrypt.co/366274/elon-musk-xai-used-openai-models-train-grok)
+_Published: 2026-04-30T20:52:43+00:00_
+
+The admission in federal court is a rare acknowledgment of the use of distillation techniques as AI firms compete to build more capable and cheaper models.
+
+---
+
+### [Bitcoin Crash Incoming? April Surge Was Built on Shaky Ground, Analysts Warn](https://decrypt.co/366267/bitcoin-crash-incoming-april-surge-built-shaky-ground-analysts-warn)
+_Published: 2026-04-30T20:30:19+00:00_
+
+Analysts warn that the Bitcoin rally was fueled by speculative futures trading, mirroring conditions that preceded the 2022 crypto crash.
+
+---
+
+### [OpenAI Rolls Out Advanced Account Security for ChatGPT Users](https://decrypt.co/366262/openai-advanced-account-security-chatgpt-users)
+_Published: 2026-04-30T19:51:43+00:00_
+
+OpenAI's new opt-in security feature requires passkeys, limits recovery options, and excludes chats from training.
+
+---
+
+### [Ubuntu Linux Is Adding AI Features—Its Users Are Worried](https://decrypt.co/366247/ubuntu-linux-adding-ai-features-users-worried)
+_Published: 2026-04-30T19:33:26+00:00_
+
+Canonical announced plans to bake AI into Linux's most popular distro. The community that chose Ubuntu specifically to avoid this kind of thing was not thrilled.
+
+---
+
+### [Senate Votes to Ban Senators and Staff From Using Prediction Markets](https://decrypt.co/366243/senate-votes-ban-senators-staff-using-prediction-markets)
+_Published: 2026-04-30T19:16:38+00:00_
+
+S. Res. 708 prohibits senators and staff from using prediction markets, and became effective immediately upon passage.
+
+---
+
+### [North Korean Hackers Have Stolen $6 Billion in Crypto—Including 76% of 2026's Spoils: TRM](https://decrypt.co/366241/north-korean-hackers-stolen-6-billion-crypto-trm)
+_Published: 2026-04-30T18:42:53+00:00_
+
+Pyongyang-linked hackers drained $577 million from two DeFi platforms in April, underscoring an escalating threat to crypto markets.
+
+---
+
+### [OpenAI Finally Explains Why ChatGPT Wouldn't Stop Talking About Goblins](https://decrypt.co/366197/openai-explains-chatgpt-mention-goblins)
+_Published: 2026-04-30T18:16:37+00:00_
+
+Why did OpenAI have to write "never mention goblins" into its production code on ChatGPT? The company has published a post-mortem.
+
+---
+
+### [Agentic Memory: Walrus Takes On AI's Next Big Bottleneck](https://decrypt.co/365834/agentic-memory-walrus-takes-on-ais-next-big-bottleneck)
+_Published: 2026-04-30T17:31:07+00:00_
+
+Long-term memory limits what AI agents can do. Walrus is going after it with MemWal plus new OpenClaw and NemoClaw integrations.
+
+---
+
+### [Crypto Is the Most Muted Topic on Elon Musk’s X, Ahead of Politics: Product Head](https://decrypt.co/366176/crypto-most-muted-topic-elon-musk-x-product-head)
+_Published: 2026-04-30T17:21:05+00:00_
+
+Internal data shows users mute crypto more than politics and global conflict on X’s For You feed.
+
+---
+
+### [Polymarket Launches Market Integrity Tools Following Soldier’s Insider Trading Arrest](https://decrypt.co/366177/polymarket-launches-market-integrity-tools-following-soldiers-insider-trading-arrest)
+_Published: 2026-04-30T17:11:02+00:00_
+
+The team-up between Polymarket and Chainalysis aims to bring institutional-grade compliance monitoring to crypto prediction markets.
+
+---
+
+### [MegaETH Token Launches as Ethereum Layer-2 Network's Novel Rewards System Is Tested](https://decrypt.co/366164/megaeth-token-launches-ethereum-layer-2-novel-rewards-system)
+_Published: 2026-04-30T16:26:01+00:00_
+
+Ethereum layer-2 network MegaETH will unlock its native MEGA token over time, and reward it to users, as key benchmarks are met.
+
+---
+
+### [Twenty-One Weighs Mergers With Strike, Elektron to Create Publicly Traded Bitcoin Giant](https://decrypt.co/366165/twenty-one-weighs-mergers-strike-elektron-publicly-traded-bitcoin-giant)
+_Published: 2026-04-30T15:46:25+00:00_
+
+Tether Investments proposed a three-way merger to create a Bitcoin platform combining mining, treasury management, and financial services
+
+---
+
+### [Gemini Gains Key CFTC Approval to Expand Prediction Market, Perps Offerings](https://decrypt.co/366159/gemini-cftc-approval-expand-prediction-market-perps-offerings)
+_Published: 2026-04-30T15:02:13+00:00_
+
+A DCO license will now allow crypto exchange Gemini to act as a clearinghouse for its derivatives-related businesses.
+
+---
+
+### [Morning Minute: Bitcoin Falls After Powell's Likely Final FOMC](https://decrypt.co/366109/morning-minute-bitcoin-falls-after-powells-likely-final-fomc)
+_Published: 2026-04-30T13:48:15+00:00_
+
+No rate cuts are coming any time soon, Big Tech earnings gave AI bulls more to work with, and Meta is back in crypto payments with USDC creator payouts.
+
+---
 
 ### [Google and Microsoft Just Proved the AI Trade Is Alive—While OpenAI Is Sweating](https://decrypt.co/366100/google-microsoft-ai-trade-openai-revenue-estimates)
 _Published: 2026-04-29T22:14:49+00:00_
@@ -146,112 +251,77 @@ The judge dismissed the FTX founder’s claims that potential witnesses faced "g
 
 ---
 
-### [AI Agent Deletes Startup’s Database in 9 Seconds, Founder Says](https://decrypt.co/365897/ai-agent-deletes-startup-database-9-seconds-founder-says)
-_Published: 2026-04-28T23:00:02+00:00_
+## The Defiant (27 entries)
 
-PocketOS founder Jeremy Crane claims a Cursor agent running Claude Opus wiped production data and backups through a single Railway API call.
+### [Crypto Markets Catch a Breath After Three-Day Slide](https://thedefiant.io/news/markets/crypto-markets-catch-a-breath-after-three-day-slide)
+_Published: 2026-04-30T20:10:04+00:00_
 
----
-
-### [Woman Gets 71 Months in Prison Over Bitcoin Investment Fraud Targeting Elderly Victims](https://decrypt.co/365894/woman-71-months-prison-bitcoin-investment-fraud-targeting-elderly-victims)
-_Published: 2026-04-28T22:01:02+00:00_
-
-Federal prosecutors secured a prison term for a Saipan woman who defrauded elderly victims through a fake Bitcoin investment scheme
+Bitcoin reclaims $76,000 despite U.S. spot ETFs posting a third consecutive day of outflows.
 
 ---
 
-### [OpenClaw Insider Builds the Enterprise Safety Layer the Project Never Shipped](https://decrypt.co/365888/red-hat-tank-os-openclaw-enterprise-security)
-_Published: 2026-04-28T21:46:02+00:00_
+### [MegaETH Token Debuts at $2 Billion Valuation](https://thedefiant.io/news/blockchains/megaeth-token-debuts-at-usd2-billion-valuation)
+_Published: 2026-04-30T19:04:51+00:00_
 
-Red Hat principal engineer and OpenClaw maintainer Sally O'Malley released Tank OS—a tool that sandboxes AI agents in isolated containers, keeping credentials locked and agents from interfering with each other or the host machine.
-
----
-
-### [CFTC Backs Prediction Markets in Yet Another Lawsuit Against a State](https://decrypt.co/365889/cftc-prediction-markets-lawsuit-wisconsin)
-_Published: 2026-04-28T21:21:51+00:00_
-
-CFTC Chair Mike Selig has vowed to sue any state that attempts to regulate prediction markets under its own gambling laws.
+MEGA is live on Binance, Coinbase, and 11 other venues a week after the Ethereum Layer 2 network cleared its first performance milestone.
 
 ---
 
-### [Dead Internet? A Third of New Websites Are AI-Generated, Says Stanford](https://decrypt.co/365864/one-third-new-websites-ai-generated-study)
-_Published: 2026-04-28T20:32:26+00:00_
+### [Anchorage Digital Partners with M0 on US Stablecoin Issuance Stack](https://thedefiant.io/news/tradfi-and-fintech/anchorage-m0-partner-on-regulated-stablecoin-issuance-united-states)
+_Published: 2026-04-30T18:56:02+00:00_
 
-A Stanford-led study quantified what everyone already suspected—but the findings aren't quite what people expected.
-
----
-
-### [Robinhood Shares Slide on 34% Decrease in Crypto Revenue](https://decrypt.co/365876/robinhood-shares-slide-34-decrease-crypto-revenue)
-_Published: 2026-04-28T20:26:00+00:00_
-
-Retail brokerage Robinhood's business has gotten a boost from prediction markets, though its crypto trading revenue fell in Q1.
+The partnership aims to make it easier for companies, including fintechs and paying firms, to issue compliant stablecoins in the United States.
 
 ---
 
-### [Google DeepMind Veteran Raises $1.1 Billion to Build AI That Isn’t Trained With Human Data](https://decrypt.co/365853/google-deepmind-veteran-raises-1-1-billion-ai-isnt-trained-human-data)
-_Published: 2026-04-28T20:13:48+00:00_
+### [Polymarket Taps Chainalysis to Police Insider Trading](https://thedefiant.io/news/defi/polymarket-taps-chainalysis-to-police-insider-trading)
+_Published: 2026-04-30T18:38:24+00:00_
 
-Ineffable Intelligence is betting that reinforcement learning is the path to superintelligence, rather than AI's large language models.
-
----
-
-### [Soldier Charged in Polymarket Insider Trading Case Pleads Not Guilty](https://decrypt.co/365858/soldier-charged-polymarket-insider-trading-case-pleads-not-guilty)
-_Published: 2026-04-28T19:21:17+00:00_
-
-Special forces member Gannon Ken Van Dyke allegedly used inside knowledge of a Venezuelan military operation to make nearly $400K profit on Polymarket.
+The prediction market will deploy a custom on-chain detection model to flag insider activity.
 
 ---
 
-### [Google Signs AI Deal With Pentagon for Classified Work as Employees Object](https://decrypt.co/365857/google-ai-deal-pentagon-classified-work)
-_Published: 2026-04-28T19:13:30+00:00_
+### [Coinbase's Institutional Investment Arm Taps Superstate to Launch Tokenized Credit Fund](https://thedefiant.io/news/defi/coinbase-asset-management-taps-superstate-fundos)
+_Published: 2026-04-30T18:27:41+00:00_
 
-Google faces internal backlash as it signs a Pentagon AI deal for classified military work.
-
----
-
-### [IREN Price Target Cut as Bernstein Sees Firm Dumping Bitcoin Mining for AI](https://decrypt.co/365852/iren-price-target-cut-as-bernstein-sees-firm-dumping-bitcoin-mining-for-ai)
-_Published: 2026-04-28T18:09:08+00:00_
-
-Bernstein analysts see IREN’s AI cloud prospects growing substantially in the coming years—and its Bitcoin business disappearing entirely.
+Coinbase Asset Management has selected Superstate FundOS to issue on-chain shares of Coinbase Stablecoin Yield Fund (CUSHY).
 
 ---
 
-### [Aave, Compound Unveil Technical Plan to Address Fallout From $290M Kelp DAO Hack](https://decrypt.co/365847/aave-compound-unveil-technical-plan-to-address-fallout-from-290m-kelp-dao-hack)
-_Published: 2026-04-28T17:36:01+00:00_
+### [PayPal Elevates Crypto to Core Business in Strategic Reorganization](https://thedefiant.io/news/tradfi-and-fintech/paypal-elevates-crypto-to-core-business-in-strategic-reorganization)
+_Published: 2026-04-30T17:51:47+00:00_
 
-Major DeFi protocols outlined technical steps to eliminate bad debt and restore full backing for exploited rsETH tokens.
-
----
-
-### [Stablecoin Giant Tether Reveals Plans for Modular Bitcoin Mining Hardware](https://decrypt.co/365840/stablecoin-giant-tether-modular-bitcoin-mining-hardware)
-_Published: 2026-04-28T16:50:38+00:00_
-
-Leading stablecoin issuer Tether has teamed with Canaan and ACME Swisstech to develop customizable, upgradable Bitcoin mining rigs.
+The payments giant will fold PYUSD, Braintree, and merchant processing into a new Payment Services & Crypto division, marking the first time digital assets have a dedicated home within the company.
 
 ---
 
-### [Inside Trump’s Meme Coin Bash: Foreign Guests, Iran War Riffs, and Mar-a-Lago Charm](https://decrypt.co/365830/inside-trump-meme-coin-bash-foreign-guests-iran-war-mar-a-lago)
-_Published: 2026-04-28T15:46:15+00:00_
+### [Circle Launches Gas-Free 'Nanopayments' on Mainnet Across 11 Blockchains](https://thedefiant.io/news/defi/circle-launches-gas-free-nanopayments-on-mainnet-across-11-blockchains)
+_Published: 2026-04-30T17:18:33+00:00_
 
-The president discussed policy, technology, and war with his top meme coin holders on Saturday at a private Mar-a-Lago gathering.
-
----
-
-### [Hyperliquid Gains Counter $216 Million Q1 Loss at Novogratz's Galaxy Digital](https://decrypt.co/365814/hyperliquid-gains-counter-216m-q1-loss-galaxy-digital)
-_Published: 2026-04-28T15:27:39+00:00_
-
-CEO Mike Novogratz said Galaxy Digital’s balance sheet suffered because crypto prices are down, yet Hyperliquid partially offset losses.
+The stablecoin issuer's new payment rail enables USDC transfers as small as $0.000001, targeting AI agents that pay per API call, per second, or per dataset read.
 
 ---
 
-### [Meta Turns to Space-Based Solar Energy to Power AI Data Centers on Earth](https://decrypt.co/365805/meta-turns-space-based-solar-energy-power-ai-data-centers)
-_Published: 2026-04-28T14:34:16+00:00_
+### [Wasabi Loses $5M+ in Latest DeFi Exploit](https://thedefiant.io/news/hacks/wasabi-protocol-hack)
+_Published: 2026-04-30T15:28:38+00:00_
 
-Facebook parent company Meta secured up to 1 gigawatt of orbital solar power as AI drives demand for electricity.
+Wasabi Protocol is the latest victim in what appears to be a record bad month for DeFi hacks.
 
 ---
 
-## The Defiant (26 entries)
+### [Kraken Launches Crypto and Tokenized Stocks Bundles](https://thedefiant.io/news/cefi/kraken-crypto-xstocks-bundles-launch)
+_Published: 2026-04-30T14:50:01+00:00_
+
+Kraken is introducing curated portfolio bundles combining cryptocurrency with traditional U.S. equities and ETFs through its xStocks offering.
+
+---
+
+### [Maple Finance's SYRUP Token Now Available on Revolut in UK and EU](https://thedefiant.io/news/defi/maple-finance-syrup-revolut-uk-eu-launch-dib9ob)
+_Published: 2026-04-30T12:46:33+00:00_
+
+Maple Finance's SYRUP token launched on Revolut, giving the fintech's 70M+ users across 39 countries access to on-chain institutional credit yield.
+
+---
 
 ### [Bitcoin Dips Under $76K as Fed Holds Rates in Rare 8-4 Split](https://thedefiant.io/news/markets/bitcoin-dips-under-usd76k-as-fed-holds-rates-in-rare-8-4-split)
 _Published: 2026-04-29T19:35:08+00:00_
@@ -260,7 +330,7 @@ ETH is down 7% on the week as the Fed signals the bar for rate cuts has risen, a
 
 ---
 
-### [Meta Launches Stablecoin Payouts In Colombia And The Philippines](https://thedefiant.io/news/defi/meta-launches-stablecoin-payouts-in-colombia-and-the-philippines)
+### [Meta Launches Stablecoin Payouts In Colombia And The Philippines](https://thedefiant.io/news/tradfi-and-fintech/meta-launches-stablecoin-payouts-in-colombia-and-the-philippines)
 _Published: 2026-04-29T19:12:38+00:00_
 
 The social media giant has rolled out USDC payments via Stripe on Solana and Polygon.
@@ -369,69 +439,6 @@ The move would let Polymarket's primary, on-chain prediction market platform ope
 _Published: 2026-04-28T15:24:57+00:00_
 
 The partnership lets holders of tokenized equity and ETFs participate in proxy voting and access other governance features.
-
----
-
-### [Bitcoin Stalls Below $80K as Geopolitical Risk Returns Ahead of Fed](https://thedefiant.io/news/markets/bitcoin-stalls-below-usd80k-as-geopolitical-risk-returns-ahead-of-fed)
-_Published: 2026-04-27T20:12:07+00:00_
-
-Crude oil jumped as Trump called off Iran peace talks, dragging BTC back below $77,000 and triggering $288 million in long liquidations.
-
----
-
-### [NFTs Attempt Another Comeback as Blue Chips Surge](https://thedefiant.io/news/nfts-and-web3/nfts-attempt-another-comeback-as-blue-chips-surge)
-_Published: 2026-04-27T19:39:01+00:00_
-
-Bored Apes, Mutant Apes, Pudgy Penguins, Azuki and Doodles are all up double digits on the month.
-
----
-
-### [Sky Proposes to Streamline Treasury Management](https://thedefiant.io/news/defi/sky-proposes-to-streamline-treasury-management)
-_Published: 2026-04-27T19:00:08+00:00_
-
-With Genesis Capital fully deployed, the protocol looks to shift from governance-determined capital outflows to rules-bound expenses capped at a fixed percentage of revenue.
-
----
-
-### [DeFi United Hits Recovery Target as Consensys, Solana, TRON Pledge Support](https://thedefiant.io/news/defi/defi-united-hits-recovery-target-as-consensys-solana-tron-pledge-support)
-_Published: 2026-04-27T17:37:24+00:00_
-
-The DeFi United coalition crossed its rsETH backing target after a flood of weekend commitments from across the Ethereum, Solana, TRON, Avalanche, and Bitcoin ecosystems.
-
----
-
-### [CFTC Chairman Endorses Prediction Markets as Valuable for Hedging and Information Discovery: Selig](https://thedefiant.io/news/regulation/cftc-chairman-endorses-prediction-markets-hedging-value-5au93a)
-_Published: 2026-04-27T13:46:17+00:00_
-
-CFTC Chairman Rostin Behnam said prediction markets provide measurable value to participants and the public, committing the agency to setting regulatory standards for the sector.
-
----
-
-### [Maple Finance Surpasses $7B in Total Bridge Volume: Maple](https://thedefiant.io/news/defi/maple-finance-7-billion-bridge-volume-4spsi7)
-_Published: 2026-04-27T13:18:00+00:00_
-
-Maple Finance announced it has crossed $7 billion in total bridge volume, signaling growing cross-chain demand for yield-bearing dollar assets.
-
----
-
-### [MicroStrategy Purchases 3,273 Bitcoin for ~$255 Million; Polymarket Odds Show 10% Chance of Sale This Year](https://thedefiant.io/news/markets/microstrategy-buys-3273-bitcoin-255-million-ptqepo)
-_Published: 2026-04-27T12:46:13+00:00_
-
-MicroStrategy has acquired an additional 3,273 Bitcoin in a new purchase valued at approximately $255 million, while prediction market Polymarket sets 10% odds on the company selling any Bitcoin before year-end.
-
----
-
-### [Elfa AI Launches Real-Time Agent Execution Platform on Solana](https://thedefiant.io/news/blockchains/elfa-ai-solana-agent-execution-36pr2y)
-_Published: 2026-04-27T11:16:16+00:00_
-
-Elfa AI begins offering continuous listening and real-time interpretation for AI agents to execute transactions on Solana when market conditions are met.
-
----
-
-### [Western Union to Launch USDPT Stablecoin in May: Western Union](https://thedefiant.io/news/cefi/western-union-usdpt-stablecoin-may-launch-umv9zw)
-_Published: 2026-04-27T10:31:59+00:00_
-
-Western Union plans to roll out its USDPT stablecoin next month, alongside a digital wallet network and Stable Card for global payments.
 
 ---
 
